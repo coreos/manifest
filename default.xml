@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="chromiumorg"
+           fetch="ssh://git@chromiumos-git/"
+           review="codereview.chromium.org" />
+  <default revision="master"
+           remote="chromiumorg" />
+
+  <project path="overlays/chromiumos-overlay" name="git/chromiumos-overlay" />
+</manifest>
