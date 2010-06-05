@@ -6,5 +6,5 @@
   <default revision="master"
            remote="chromiumorg" />
 
-  <project path="overlays/chromiumos-overlay" name="git/chromiumos-overlay" />
+  <project path="overlays/chromiumos-overlay" name="chromiumos-overlay" />
 </manifest>
