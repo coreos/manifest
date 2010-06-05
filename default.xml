@@ -6,7 +6,7 @@
   <default revision="master"
            remote="chromiumorg" />
 
-  <project path="base/public/chromiumos-overlay" name="chromiumos-overlay" />
+  <project path="base/public" name="chromiumos-overlay" />
   <project path="workdir/acpi" name="acpi" />
   <project path="workdir/assets" name="assets" />
   <project path="workdir/audioconfig" name="audioconfig" />
