@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="chromiumorg"
            fetch="ssh://git@chromiumos-git/"
-           review="codereview.chromium.org" />
+           review="nomadwithin.mtv.corp.google.com" />
   <default revision="master"
            remote="chromiumorg" />
 
