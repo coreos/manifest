@@ -54,7 +54,7 @@
   <project path="src/common" name="common" />
   <project path="src/scripts" name="crosutils" />
 
-  <project path="deprecated" name="chromiumos.git" />
+  <project path="deprecated" name="chromiumos" />
 
   <project path="src/third_party/autotest/files" name="autotest" />
   <project path="src/third_party/ibus/files" name="ibus" revision="refs/heads/branch-off-facc441"/>
