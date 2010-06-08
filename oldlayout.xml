@@ -41,7 +41,6 @@
   <project path="src/platform/vboot_reference" name="vboot_reference" />
   <project path="src/platform/window_manager" name="window_manager" />
   <project path="src/third_party/atheros" name="atheros" />
-  <project path="src/third_party/autotest" name="autotest" />
   <project path="src/third_party/bootstub" name="bootstub" />
   <project path="src/third_party/bsdiff" name="bsdiff" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
