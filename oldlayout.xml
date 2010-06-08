@@ -49,7 +49,6 @@
   <project path="src/third_party/miniFakeDns" name="minifakedns" />
   <project path="src/third_party/ply-image" name="ply-image" />
   <project path="src/third_party/u-boot" name="u-boot" />
-  <project path="src/third_party/upstart" name="upstart" />
   <project path="src/third_party/xscreensaver" name="xscreensaver" />
 
   <project path="src/overlays" name="board-overlays" />
