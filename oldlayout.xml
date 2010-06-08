@@ -36,7 +36,7 @@
   <project path="src/platform/uboot-env" name="uboot-env" />
   <project path="src/platform/update_engine" name="update_engine" />
   <project path="src/platform/userfeedback" name="userfeedback" />
-  <project path="src/platform/verity" name="verity" />
+  <project path="src/platform/verity" name="dm-verity" />
   <project path="src/platform/vboot_reference" name="vboot_reference" />
   <project path="src/platform/window_manager" name="window_manager" />
   <project path="src/third_party/atheros" name="atheros" />
