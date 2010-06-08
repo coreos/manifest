@@ -59,8 +59,7 @@
   <project path="deprecated" name="chromiumos.git" />
 
   <project path="src/third_party/autotest/files" name="autotest" />
-  <project path="src/third_party/ibus/files" name="ibus" />
-    _third_party_base + "ibus/files": "/ibus.git@refs/heads/branch-off-facc441",
+  <project path="src/third_party/ibus/files" name="ibus" revision="refs/heads/branch-off-facc441"/>
   <project path="src/third_party/ibus-chewing/files" name="ibus-chewing" />
   <project path="src/third_party/ibus-pinyin/files" name="ibus-pinyin" />
   <project path="src/third_party/ibus-hangul/files" name="ibus-hangul" />
@@ -72,10 +71,8 @@
   <project path="src/third_party/tpm-emulator" name="tpm-emulator" />
   <project path="src/third_party/trousers" name="trousers" />
   <project path="src/third_party/kernel/files" name="kernel" />
-    _third_party_base + "kernel-qualcomm": "/kernel.git@origin/qualcomm-2.6.31.12",
-    _third_party_base + "kernel-nvidia": "/kernel.git@origin/nvidia-2.6.31.12",
-  <project path="src/third_party/kernel-qualcomm" name="kernel" />
-  <project path="src/third_party/kernel-nvidia" name="kernel" />
+  <project path="src/third_party/kernel-qualcomm" name="kernel" revision="origin/qualcomm-2.6.31.12"/>
+  <project path="src/third_party/kernel-nvidia" name="kernel" revision="origin/nvidia-2.6.31.12"/>
   <project path="src/third_party/flimflam" name="flimflam" />
   <project path="src/third_party/gpt" name="gpt" />
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
