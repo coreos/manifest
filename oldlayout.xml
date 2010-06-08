@@ -78,12 +78,12 @@
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
   <project path="src/third_party/upstart/files" name="upstart" />
   <project path="src/third_party/u-boot/files" name="u-boot.git" />
-  <project path="src/third_party/wpa_supplicant" name="hostap" />
+  <project path="src/third_party/wpa_supplicant/hostap.git" name="hostap" />
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
   <project path="src/third_party/hardened-dev" name="hardened-dev" />
   <project path="src/third_party/laptop-mode-tools" name="laptop-mode-tools" />
-  <project path="src/third_party/modemmanager" name="hostap" />
+  <project path="src/third_party/modemmanager" name="modemmanager" />
   <project path="src/third_party/libresample" name="libresample" />
   <project path="src/third_party/rootdev" name="rootdev" />
   <project path="src/third_party/grub2" name="grub2" />
