@@ -6,7 +6,7 @@
   <default revision="master"
            remote="chromiumorg" />
 
-  <project path="base/public" name="chromiumos-overlay" />
+  <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
   <project path="src/platform/acpi" name="acpi" />
   <project path="src/platform/assets" name="assets" />
   <project path="src/platform/audioconfig" name="audioconfig" />
@@ -49,4 +49,5 @@
   <project path="src/third_party/wpa_supplicant" name="hostap" />
   <project path="src/overlays" name="board-overlays" />
   <project path="src/common" name="common" />
+  <project path="src/scripts" name="crosutils" />
 </manifest>
