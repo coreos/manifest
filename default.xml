@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="chromiumorg"
-           fetch="ssh://git@chromiumos-git/"
-           review="nomadwithin.mtv.corp.google.com" />
+           fetch="ssh://git@gitrw.chromium.org/"
+           review="codereview.chromium.org" />
   <default revision="master"
            remote="chromiumorg" />
 
   <project path="base/public" name="chromiumos-overlay" />
+  <project path="scripts" name="crosutils" />
   <project path="workdir/acpi" name="acpi" />
   <project path="workdir/assets" name="assets" />
   <project path="workdir/audioconfig" name="audioconfig" />

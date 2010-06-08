@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="chromiumorg"
-           fetch="ssh://git@chromiumos-git/"
+           fetch="ssh://git@gitrw.chromium.org/"
            review="codereview.chromium.org" />
   <default revision="master"
            remote="chromiumorg" />
