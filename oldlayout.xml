@@ -47,7 +47,6 @@
   <project path="src/third_party/marvell" name="marvell" />
   <project path="src/third_party/miniFakeDns" name="minifakedns" />
   <project path="src/third_party/ply-image" name="ply-image" />
-  <project path="src/third_party/u-boot" name="u-boot" />
   <project path="src/third_party/xscreensaver" name="xscreensaver" />
 
   <project path="src/overlays" name="board-overlays" />
@@ -77,7 +76,7 @@
   <project path="src/third_party/gpt" name="gpt" />
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
   <project path="src/third_party/upstart/files" name="upstart" />
-  <project path="src/third_party/u-boot/files" name="u-boot.git" />
+  <project path="src/third_party/u-boot/files" name="u-boot" />
   <project path="src/third_party/wpa_supplicant/hostap.git" name="hostap" />
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
