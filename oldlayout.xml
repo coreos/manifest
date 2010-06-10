@@ -17,6 +17,7 @@
   <project path="src/platform/dev" name="dev-util" />
   <project path="src/platform/entd" name="entd" />
   <project path="src/platform/factory_installer" name="factory_installer" />
+  <project path="src/platform/firmware-utils" name="firmware-utils" />
   <project path="src/platform/recovery_installer" name="recovery_installer" />
   <project path="src/platform/init" name="init" />
   <project path="src/platform/installer" name="installer" />
@@ -51,9 +52,15 @@
 
   <project path="src/overlays" name="board-overlays" />
   <project path="src/common" name="common" />
-  <project path="src/scripts" name="crosutils" />
+  <project path="src/scripts" name="crosutils" >
+    <copyfile src="get_svn_repos.sh" dest="get_svn_repos.sh" />
+  </project>
 
-  <project path="deprecated" name="chromiumos" />
+  <project path="deprecated" name="chromiumos" >
+    <copyfile src="WATCHLISTS" dest="WATCHLISTS" />
+    <copyfile src="codereview.settings" dest="codereview.settings" />
+    <copyfile src="PRESUBMIT.py" dest="PRESUBMIT.py" />
+  </project>
 
   <project path="src/third_party/autotest/files" name="autotest" />
   <project path="src/third_party/ibus/files" name="ibus" revision="refs/heads/branch-off-facc441"/>
