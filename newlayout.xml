@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="chromiumorg"
+           fetch="ssh://git@chromiumos-git/"
+           review="codereview.chromium.org" />
+  <default revision="master"
+           remote="chromiumorg" />
+
+  <project path="src/platform/acpi" name="acpi" />
+  <project path="src/platform/assets" name="assets" />
+  <project path="src/platform/audioconfig" name="audioconfig" />
+  <project path="src/platform/autox" name="autox" />
+  <project path="src/platform/crash" name="crash" />
+  <project path="src/platform/cromo" name="cromo" />
+  <project path="src/platform/cros" name="cros" />
+  <project path="src/platform/cryptohome" name="cryptohome" />
+  <project path="src/platform/dev" name="dev-util" />
+  <project path="src/platform/entd" name="entd" />
+  <project path="src/platform/factory_installer" name="factory_installer" />
+  <project path="src/platform/recovery_installer" name="recovery_installer" />
+  <project path="src/platform/init" name="init" />
+  <project path="src/platform/installer" name="installer" />
+  <project path="src/platform/login_manager" name="login_manager" />
+  <project path="src/platform/memento_softwareupdate" name="memento_softwareupdate" />
+  <project path="src/platform/metrics" name="metrics" />
+  <project path="src/platform/microbenchmark" name="microbenchmark" />
+  <project path="src/platform/minijail" name="minijail" />
+  <project path="src/platform/monitor_reconfig" name="monitor_reconfig" />
+  <project path="src/platform/pam_google" name="pam_google" />
+  <project path="src/platform/pam_offline" name="pam_offline" />
+  <project path="src/platform/power_manager" name="power_manager" />
+  <project path="src/platform/screenlocker" name="screenlocker" />
+  <project path="src/platform/speech_synthesis" name="speech_synthesis" />
+  <project path="src/platform/theme" name="theme" />
+  <project path="src/platform/tpm_lite" name="tpm_lite" />
+  <project path="src/platform/uboot-env" name="uboot-env" />
+  <project path="src/platform/update_engine" name="update_engine" />
+  <project path="src/platform/userfeedback" name="userfeedback" />
+  <project path="src/platform/verity" name="dm-verity" />
+  <project path="src/platform/vboot_reference" name="vboot_reference" />
+  <project path="src/platform/window_manager" name="window_manager" />
+  <project path="src/third_party/atheros" name="atheros" />
+  <project path="src/third_party/bootstub" name="bootstub" />
+  <project path="src/third_party/bsdiff" name="bsdiff" />
+  <project path="src/third_party/dhcpcd" name="dhcpcd" />
+  <project path="src/third_party/khronos" name="khronos" />
+  <project path="src/third_party/marvell" name="marvell" />
+  <project path="src/third_party/miniFakeDns" name="minifakedns" />
+  <project path="src/third_party/ply-image" name="ply-image" />
+  <project path="src/third_party/xscreensaver" name="xscreensaver" />
+
+  <project path="src/overlays" name="board-overlays" />
+  <project path="src/common" name="common" />
+  <project path="src/scripts" name="crosutils" />
+
+  <project path="deprecated" name="chromiumos" />
+
+  <project path="src/third_party/autotest/files" name="autotest" />
+  <project path="src/third_party/ibus/files" name="ibus" revision="refs/heads/branch-off-facc441"/>
+  <project path="src/third_party/ibus-chewing/files" name="ibus-chewing" />
+  <project path="src/third_party/ibus-pinyin/files" name="ibus-pinyin" />
+  <project path="src/third_party/ibus-hangul/files" name="ibus-hangul" />
+  <project path="src/third_party/ibus-m17n/files" name="ibus-m17n" />
+  <project path="src/third_party/ibus-xkb-layouts/files" name="ibus-xkb-layouts" />
+  <project path="src/third_party/libchewing/files" name="libchewing" />
+  <project path="src/third_party/pam-dev" name="pam-dev" />
+  <project path="src/third_party/tpm" name="tpm" />
+  <project path="src/third_party/tpm-emulator" name="tpm-emulator" />
+  <project path="src/third_party/trousers" name="trousers" />
+  <project path="src/third_party/kernel/files" name="kernel" />
+<!--
+  <project path="src/third_party/kernel-qualcomm" name="kernel" revision="origin/qualcomm-2.6.31.12"/>
+  <project path="src/third_party/kernel-nvidia" name="kernel" revision="origin/nvidia-2.6.31.12"/>
+-->
+  <project path="src/third_party/flimflam" name="flimflam" />
+  <project path="src/third_party/gpt" name="gpt" />
+  <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
+  <project path="src/third_party/upstart/files" name="upstart" />
+  <project path="src/third_party/u-boot/files" name="u-boot" />
+  <project path="src/third_party/wpa_supplicant/hostap.git" name="hostap" />
+  <project path="src/third_party/portage" name="portage" />
+  <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
+  <project path="src/third_party/hardened-dev" name="hardened-dev" />
+  <project path="src/third_party/laptop-mode-tools" name="laptop-mode-tools" />
+  <project path="src/third_party/modemmanager" name="modemmanager" />
+  <project path="src/third_party/libresample" name="libresample" />
+  <project path="src/third_party/rootdev" name="rootdev" />
+  <project path="src/third_party/grub2" name="grub2" />
+  <project path="src/third_party/dbus-c++" name="dbus-cplusplus" />
+</manifest>
