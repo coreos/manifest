@@ -61,7 +61,6 @@
   <project path="src/third_party/ibus-hangul/files" name="ibus-hangul" />
   <project path="src/third_party/ibus-m17n/files" name="ibus-m17n" />
   <project path="src/third_party/ibus-xkb-layouts/files" name="ibus-xkb-layouts" />
-  <project path="src/third_party/libchewing/files" name="libchewing" />
   <project path="src/third_party/pam-dev" name="pam-dev" />
   <project path="src/third_party/tpm" name="tpm" />
   <project path="src/third_party/tpm-emulator" name="tpm-emulator" />
