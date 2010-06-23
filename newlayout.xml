@@ -11,6 +11,8 @@
   <project path="src/platform/audioconfig" name="audioconfig" />
   <project path="src/platform/autox" name="autox" />
   <project path="src/platform/crash" name="crash" />
+  <project path="src/platform/crash-dumper" name="crash-dumper" />
+  <project path="src/platform/crash-reporter" name="crash-reporter" />
   <project path="src/platform/cromo" name="cromo" />
   <project path="src/platform/cros" name="cros" />
   <project path="src/platform/cryptohome" name="cryptohome" />
@@ -39,6 +41,7 @@
   <project path="src/platform/verity" name="dm-verity" />
   <project path="src/platform/vboot_reference" name="vboot_reference" />
   <project path="src/platform/window_manager" name="window_manager" />
+  <project path="src/platform/workarounds" name="workarounds" />
   <project path="src/third_party/atheros" name="atheros" />
   <project path="src/third_party/bootstub" name="bootstub" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
