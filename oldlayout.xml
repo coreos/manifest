@@ -10,6 +10,7 @@
   <project path="src/platform/assets" name="assets" />
   <project path="src/platform/audioconfig" name="audioconfig" />
   <project path="src/platform/autox" name="autox" />
+  <project path="src/platform/cashew" name="cashew" />
   <project path="src/platform/crash" name="crash" />
   <project path="src/platform/crash-dumper" name="crash-dumper" />
   <project path="src/platform/crash-reporter" name="crash-reporter" />
@@ -54,11 +55,11 @@
 
   <project path="src/overlays" name="board-overlays" />
   <project path="src/common" name="common" />
-  <project path="src/scripts" name="crosutils" >
+  <project path="src/scripts" name="crosutils" />
     <copyfile src="get_svn_repos.sh" dest="get_svn_repos.sh" />
   </project>
 
-  <project path="deprecated" name="chromiumos" >
+  <project path="deprecated" name="chromiumos" />
     <copyfile src="WATCHLISTS" dest="WATCHLISTS" />
     <copyfile src="codereview.settings" dest="codereview.settings" />
     <copyfile src="PRESUBMIT.py" dest="PRESUBMIT.py" />
