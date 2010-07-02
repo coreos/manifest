@@ -46,6 +46,7 @@
   <project path="src/platform/workarounds" name="workarounds" />
   <project path="src/third_party/atheros" name="atheros" />
   <project path="src/third_party/bootstub" name="bootstub" />
+  <project path="src/third_party/chrontel" name="chrontel" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
   <project path="src/third_party/khronos" name="khronos" />
   <project path="src/third_party/marvell" name="marvell" />
@@ -80,7 +81,7 @@
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
   <project path="src/third_party/upstart/files" name="upstart" />
   <project path="src/third_party/u-boot/files" name="u-boot" />
-  <project path="src/third_party/wpa_supplicant/hostap.git" name="hostap" />
+  <project path="src/third_party/wpa_supplicant" name="hostap" />
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
   <project path="src/third_party/hardened-dev" name="hardened-dev" />
