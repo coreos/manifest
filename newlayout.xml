@@ -20,6 +20,7 @@
   <project path="src/platform/dev" name="dev-util" />
   <project path="src/platform/entd" name="entd" />
   <project path="src/platform/factory_installer" name="factory_installer" />
+  <project path="src/platform/firmware" name="firmware" />
   <project path="src/platform/firmware-utils" name="firmware-utils" />
   <project path="src/platform/recovery_installer" name="recovery_installer" />
   <project path="src/platform/init" name="init" />
