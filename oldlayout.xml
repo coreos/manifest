@@ -91,6 +91,7 @@
   <project path="src/third_party/wpa_supplicant" name="hostap" />
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
+  <project path="src/third_party/crosstool-overlay" name="crosstool-overlay" />
   <project path="src/third_party/hardened-dev" name="hardened-dev" />
   <project path="src/third_party/laptop-mode-tools" name="laptop-mode-tools" />
   <project path="src/third_party/modemmanager" name="modemmanager" />

@@ -23,6 +23,7 @@
 -->
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
+  <project path="src/third_party/crosstool-overlay" name="crosstool-overlay" />
 <!--These need to be removed -->
   <project path="src/platform/installer" name="installer" />
   <project path="src/third_party/kernel/files" name="kernel" />
