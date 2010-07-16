@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="chromiumorg"
+  <remote  name="cros"
            fetch="http://src.chromium.org/git"
            review="codereview.chromium.org" />
-  <default revision="master"
-           remote="chromiumorg" />
+  <default revision="refs/heads/master"
+           remote="cros" />
 
   <project path="src/platform/acpi" name="acpi" />
   <project path="src/platform/assets" name="assets" />
@@ -57,9 +57,7 @@
 
   <project path="src/overlays" name="board-overlays" />
   <project path="src/common" name="common" />
-  <project path="src/scripts" name="crosutils" >
-    <copyfile src="get_svn_repos.sh" dest="get_svn_repos.sh" />
-  </project>
+  <project path="src/scripts" name="crosutils" />
 
   <project path="deprecated" name="chromiumos" >
     <copyfile src="WATCHLISTS" dest="WATCHLISTS" />
