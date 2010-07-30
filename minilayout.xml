@@ -40,6 +40,7 @@
   <project path="src/platform/firmware" name="firmware" />
   <project path="src/platform/firmware-utils" name="firmware-utils" />
   <project path="src/platform/recovery_installer" name="recovery_installer" />
+  <project path="src/platform/image-burner" name="image-burner" />
   <project path="src/platform/init" name="init" />
   <project path="src/platform/login_manager" name="login_manager" />
   <project path="src/platform/memento_softwareupdate" name="memento_softwareupdate" />
