@@ -21,6 +21,7 @@
   <project path="src/platform/dev" name="dev-util" />
   <project path="src/platform/installer" name="installer" />
   <project path="src/third_party/hardened-dev" name="hardened-dev" />
+  <project path="src/third_party/kernel/files" name="kernel" />
   <project path="src/platform/vboot_reference" name="vboot_reference" />
   <project path="src/third_party/wpa_supplicant" name="hostap" />
 
@@ -65,7 +66,6 @@
   <project path="src/third_party/bootstub" name="bootstub" />
   <project path="src/third_party/chrontel" name="chrontel" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
-  <project path="src/third_party/kernel/files" name="kernel" />
   <project path="src/third_party/khronos" name="khronos" />
   <project path="src/third_party/marvell" name="marvell" />
   <project path="src/third_party/miniFakeDns" name="minifakedns" />
