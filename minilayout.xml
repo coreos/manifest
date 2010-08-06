@@ -55,6 +55,7 @@
   <project path="src/platform/power_manager" name="power_manager" />
   <project path="src/platform/speech_synthesis" name="speech_synthesis" />
   <project path="src/platform/theme" name="theme" />
+  <project path="src/platform/tpm_init" name="tpm_init" />
   <project path="src/platform/tpm_lite" name="tpm_lite" />
   <project path="src/platform/uboot-env" name="uboot-env" />
   <project path="src/platform/update_engine" name="update_engine" />
@@ -67,6 +68,7 @@
   <project path="src/third_party/chrontel" name="chrontel" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
   <project path="src/third_party/khronos" name="khronos" />
+  <project path="src/third_party/libscrypt" name="libscrypt" />
   <project path="src/third_party/marvell" name="marvell" />
   <project path="src/third_party/miniFakeDns" name="minifakedns" />
   <project path="src/third_party/ply-image" name="ply-image" />
