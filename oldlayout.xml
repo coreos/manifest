@@ -18,6 +18,7 @@
   <project path="src/platform/cros" name="cros" />
   <project path="src/platform/cryptohome" name="cryptohome" />
   <project path="src/platform/dev" name="dev-util" />
+  <project path="src/platform/dump-syms" name="dump-syms" />
   <project path="src/platform/entd" name="entd" />
   <project path="src/platform/factory_installer" name="factory_installer" />
   <project path="src/platform/firmware" name="firmware" />
