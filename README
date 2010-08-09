@@ -1,3 +1,5 @@
 DO NOT MAKE CHANGES TO THIS REPO - THEY WILL BE OVERWRITTEN.
 The authorative manifest is manifest-internal and this repo is generated from
 that.
+
+Also make sure you update _both_ the oldlayout.xml and minilayout.xml. The entry in minilayout.xml will need the new entry added in a comment block. 
