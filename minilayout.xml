@@ -21,8 +21,6 @@
   <project path="src/platform/dev" name="dev-util" />
   <project path="src/platform/installer" name="installer" />
   <project path="src/third_party/hardened-dev" name="hardened-dev" />
-  <project path="src/third_party/kernel/files" name="kernel" />
-  <project path="src/platform/vboot_reference" name="vboot_reference" />
   <project path="src/third_party/wpa_supplicant" name="hostap" />
 
 <!--START_MINILAYOUT
@@ -62,6 +60,7 @@
   <project path="src/platform/uboot-env" name="uboot-env" />
   <project path="src/platform/update_engine" name="update_engine" />
   <project path="src/platform/userfeedback" name="userfeedback" />
+  <project path="src/platform/vboot_reference" name="vboot_reference" />
   <project path="src/platform/verity" name="dm-verity" />
   <project path="src/platform/window_manager" name="window_manager" />
   <project path="src/platform/workarounds" name="workarounds" />
@@ -69,6 +68,7 @@
   <project path="src/third_party/bootstub" name="bootstub" />
   <project path="src/third_party/chrontel" name="chrontel" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
+  <project path="src/third_party/kernel/files" name="kernel" />
   <project path="src/third_party/khronos" name="khronos" />
   <project path="src/third_party/libscrypt" name="libscrypt" />
   <project path="src/third_party/marvell" name="marvell" />
