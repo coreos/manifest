@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="cros"
-           fetch="http://src.chromium.org/git"
+           fetch="http://git.chromium.org/git"
            review="codereview.chromium.org" />
   <default revision="refs/heads/master"
            remote="cros" />
