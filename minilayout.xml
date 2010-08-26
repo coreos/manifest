@@ -16,11 +16,9 @@
   </project>
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
-  <project path="src/third_party/crosstool-overlay" name="crosstool-overlay" />
 <!--These need to be removed -->
   <project path="src/platform/dev" name="dev-util" />
   <project path="src/platform/installer" name="installer" />
-  <project path="src/third_party/hardened-dev" name="hardened-dev" />
   <project path="src/third_party/wpa_supplicant" name="hostap" />
 
 <!--START_MINILAYOUT
