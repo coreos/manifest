@@ -68,6 +68,7 @@
   <project path="src/third_party/chrontel" name="chrontel" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
   <project path="src/third_party/kernel/files" name="kernel" />
+  <project path="src/third_party/kernel-next" name="kernel-next" revision="refs/heads/chromeos-2.6.35" />
   <project path="src/third_party/khronos" name="khronos" />
   <project path="src/third_party/libscrypt" name="libscrypt" />
   <project path="src/third_party/marvell" name="marvell" />
