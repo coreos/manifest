@@ -12,6 +12,7 @@
   <project path="src/platform/autox" name="autox" />
   <project path="src/platform/bootstat" name="bootstat" />
   <project path="src/platform/cashew" name="cashew" />
+  <project path="src/platform/chromiumos-assets" name="chromiumos-assets" />
   <project path="src/platform/crash" name="crash" />
   <project path="src/platform/crash-dumper" name="crash-dumper" />
   <project path="src/platform/crash-reporter" name="crash-reporter" />
