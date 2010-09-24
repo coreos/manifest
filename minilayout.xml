@@ -53,6 +53,7 @@
   <project path="src/platform/pam_google" name="pam_google" />
   <project path="src/platform/pam_offline" name="pam_offline" />
   <project path="src/platform/power_manager" name="power_manager" />
+  <project path="src/platform/saft" name="saft" />
   <project path="src/platform/speech_synthesis" name="speech_synthesis" />
   <project path="src/platform/theme" name="theme" />
   <project path="src/platform/tpm_init" name="tpm_init" />
