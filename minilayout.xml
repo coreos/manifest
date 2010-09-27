@@ -34,6 +34,7 @@
   <project path="src/platform/crash-reporter" name="crash-reporter" />
   <project path="src/platform/cromo" name="cromo" />
   <project path="src/platform/cros" name="cros" />
+  <project path="src/platform/cros_boot_mode" name="cros_boot_mode" />
   <project path="src/platform/cryptohome" name="cryptohome" />
   <project path="src/platform/dump-syms" name="dump-syms" />
   <project path="src/platform/entd" name="entd" />
