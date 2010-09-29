@@ -91,6 +91,7 @@
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
   <project path="src/third_party/upstart/files" name="upstart" />
   <project path="src/third_party/u-boot/files" name="u-boot" />
+  <project path="src/third_party/u-boot-next/files" name="u-boot-next" revision="refs/heads/chromeos-snapshot-2010.09.23" />
   <project path="src/third_party/wpa_supplicant" name="hostap" />
   <project path="src/third_party/portage" name="portage" />
   <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
