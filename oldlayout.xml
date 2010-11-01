@@ -56,6 +56,7 @@
   <project path="src/third_party/bootstub" name="bootstub" />
   <project path="src/third_party/chrontel" name="chrontel" />
   <project path="src/third_party/dhcpcd" name="dhcpcd" />
+  <project path="src/third_party/flashrom" name="flashrom" />
   <project path="src/third_party/khronos" name="khronos" />
   <project path="src/third_party/libscrypt" name="libscrypt" />
   <project path="src/third_party/marvell" name="marvell" />
