@@ -83,7 +83,7 @@
   <project path="src/third_party/tpm-emulator" name="tpm-emulator" />
   <project path="src/third_party/trousers" name="trousers" />
   <project path="src/third_party/kernel/files" name="kernel" />
-  <project path="src/third_party/kernel-next" name="kernel-next" revision="refs/heads/chromeos-2.6.35" />
+  <project path="src/third_party/kernel-next" name="kernel-next" revision="refs/heads/chromeos-2.6.36" />
 <!--
   <project path="src/third_party/kernel-qualcomm" name="kernel" revision="origin/qualcomm-2.6.31.12"/>
   <project path="src/third_party/kernel-nvidia" name="kernel" revision="origin/nvidia-2.6.31.12"/>
