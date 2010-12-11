@@ -6,6 +6,27 @@
   <default revision="refs/heads/master"
            remote="cros" />
 
+  <notice>
+            ..77IIIIII7,.
+           .$IOOOOOOOOOOZ$:.
+        .IO8?OOOOOOZOOOOOOOO.
+        ?=?~?ZO+D8888=+OZOOOOI.
+      .7$+I+++888$IIO$8+=OZZZOI.
+     .ZZ$$I?~I8$7?++?I7Z88888IZ:
+     ~IZ$$7I~8OII?=~+I$Z8:++=ZD$
+     IZZZ$$7~8ZZ$I??I$7D8:+++??I.
+     I$ZZZ$$?=DOOZ$$ZOD8:=+++??I.
+     77OZZZ$$+=8DDDDDDO:=+++???I
+     .OOOOZZZ$$==7D,:::++++???I?
+     .$$OOOOZZZ$8~===+++++???I?.
+       7$OOOO$8=====+++++??II?..
+        ?$ZO8:===+++++++?I???.
+         .77$D8+++++++=?+??..
+            ,7$8Z===+++??
+               ........
+Your sources have been sync'd successfully.
+  </notice>
+
   <project path="src/platform/acpi" name="acpi" />
   <project path="src/platform/assets" name="assets" />
   <project path="src/platform/audioconfig" name="audioconfig" />
@@ -67,13 +88,6 @@
   <project path="src/overlays" name="board-overlays" />
   <project path="src/common" name="common" />
   <project path="src/scripts" name="crosutils" />
-
-  <project path="deprecated" name="chromiumos" >
-    <copyfile src="WATCHLISTS" dest="WATCHLISTS" />
-    <copyfile src="codereview.settings" dest="codereview.settings" />
-    <copyfile src="PRESUBMIT.py" dest="PRESUBMIT.py" />
-  </project>
-
   <project path="src/third_party/autotest/files" name="autotest" />
   <project path="src/third_party/ibus-chewing/files" name="ibus-chewing" />
   <project path="src/third_party/ibus-pinyin/files" name="ibus-pinyin" />
@@ -84,10 +98,6 @@
   <project path="src/third_party/trousers" name="trousers" />
   <project path="src/third_party/kernel/files" name="kernel" />
   <project path="src/third_party/kernel-next" name="kernel-next" revision="refs/heads/chromeos-2.6.36" />
-<!--
-  <project path="src/third_party/kernel-qualcomm" name="kernel" revision="origin/qualcomm-2.6.31.12"/>
-  <project path="src/third_party/kernel-nvidia" name="kernel" revision="origin/nvidia-2.6.31.12"/>
--->
   <project path="src/third_party/flimflam" name="flimflam" />
   <project path="src/third_party/gpt" name="gpt" />
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
@@ -96,7 +106,10 @@
   <project path="src/third_party/u-boot-next/files" name="u-boot-next" revision="refs/heads/chromeos-v2010.09" />
   <project path="src/third_party/wpa_supplicant" name="hostap" />
   <project path="src/third_party/portage" name="portage" />
-  <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" />
+  <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" >
+    <copyfile src="codereview.settings" dest="codereview.settings" />
+    <copyfile src="ROOT_PRESUBMIT.py" dest="PRESUBMIT.py" />
+  </project>
   <project path="src/third_party/laptop-mode-tools" name="laptop-mode-tools" />
   <project path="src/third_party/modemmanager" name="modemmanager" />
   <project path="src/third_party/libresample" name="libresample" />
