@@ -72,6 +72,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/userfeedback" name="userfeedback" />
   <project path="src/platform/verity" name="dm-verity" />
   <project path="src/platform/vboot_reference" name="vboot_reference" />
+  <project path="src/platform/vpd" name="vpd" />
   <project path="src/platform/window_manager" name="window_manager" />
   <project path="src/platform/workarounds" name="workarounds" />
   <project path="src/third_party/atheros" name="atheros" />
