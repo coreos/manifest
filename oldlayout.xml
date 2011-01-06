@@ -31,7 +31,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/firmware" name="firmware" />
   <project path="src/platform/firmware-utils" name="firmware-utils" />
   <project path="src/platform/google-breakpad" name="google-breakpad" />
-  <project path="src/platform/recovery_installer" name="recovery_installer" />
   <project path="src/platform/image-burner" name="image-burner" />
   <project path="src/platform/init" name="init" />
   <project path="src/platform/initramfs" name="initramfs" />
@@ -42,9 +41,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/microbenchmark" name="microbenchmark" />
   <project path="src/platform/minijail" name="minijail" />
   <project path="src/platform/monitor_reconfig" name="monitor_reconfig" />
-  <project path="src/platform/pam_google" name="pam_google" />
-  <project path="src/platform/pam_offline" name="pam_offline" />
   <project path="src/platform/power_manager" name="power_manager" />
+  <project path="src/platform/recovery_installer" name="recovery_installer" />
   <project path="src/platform/saft" name="saft" />
   <project path="src/platform/speech_synthesis" name="speech_synthesis" />
   <project path="src/platform/theme" name="theme" />
@@ -76,7 +74,6 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/ibus-chewing/files" name="ibus-chewing" />
   <project path="src/third_party/ibus-pinyin/files" name="ibus-pinyin" />
   <project path="src/third_party/ibus-xkb-layouts/files" name="ibus-xkb-layouts" />
-  <project path="src/third_party/pam-dev" name="pam-dev" />
   <project path="src/third_party/tpm" name="tpm" />
   <project path="src/third_party/tpm-emulator" name="tpm-emulator" />
   <project path="src/third_party/trousers" name="trousers" />
