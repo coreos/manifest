@@ -81,6 +81,7 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/kernel-next" name="kernel-next" revision="refs/heads/chromeos-2.6.36" />
   <project path="src/third_party/flimflam" name="flimflam" />
   <project path="src/third_party/gpt" name="gpt" />
+  <project path="src/third_party/xf86-input-synaptics" name="xf86-input-synaptics" />
   <project path="src/third_party/xf86-video-msm" name="xf86-video-msm" />
   <project path="src/third_party/upstart/files" name="upstart" />
   <project path="src/third_party/u-boot/files" name="u-boot" />
