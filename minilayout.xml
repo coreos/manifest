@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="cros"
-           fetch="http://git.chromium.org/git"
-           review="codereview.chromium.org" />
+           fetch="http://gerrit.chromium.org/gerrit/p"
+           review="gerrit.chromium.org/gerrit" />
   <default revision="refs/heads/master"
            remote="cros" />
 
@@ -10,15 +10,17 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <project path="src/overlays" name="board-overlays" />
-  <project path="src/scripts" name="crosutils" />
-  <project path="src/third_party/portage" name="portage" />
-  <project path="src/third_party/chromiumos-overlay" name="chromiumos-overlay" >
-    <copyfile src="codereview.settings" dest="codereview.settings" />
-    <copyfile src="ROOT_PRESUBMIT.py" dest="PRESUBMIT.py" />
+  <project path="src/overlays" name="chromiumos/overlays/board-overlays" />
+  <project path="src/scripts" name="chromiumos/platform/crosutils" />
+  <project path="src/third_party/portage" name="chromiumos/overlays/portage" />
+  <project path="src/third_party/chromiumos-overlay" 
+           name="chromiumos/overlays/chromiumos-overlay" >
+           <copyfile src="codereview.settings" dest="codereview.settings" />
+           <copyfile src="ROOT_PRESUBMIT.py" dest="PRESUBMIT.py" />
   </project>
-<!--These need to be removed -->
-  <project path="src/platform/dev" name="dev-util" />
-  <project path="src/platform/installer" name="installer" />
+
+<!--Non overlays need to be removed from here into ebuilds-->
+  <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
+  <project path="src/platform/installer" name="chromiumos/platform/installer" />
 
 </manifest>
