@@ -10,6 +10,10 @@
 Your sources have been sync'd successfully.
   </notice>
 
+  <project path="chromite" name="chromiumos/chromite" >
+    <copyfile src="AUTHORS" dest="AUTHORS" />
+    <copyfile src="LICENSE" dest="LICENSE" />
+  </project>
   <project path="src/platform/acpi" name="chromiumos/platform/acpi" />
   <project path="src/platform/assets" name="chromiumos/platform/assets" />
   <project path="src/platform/audioconfig" 
@@ -57,8 +61,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/monitor_reconfig" />
   <project path="src/platform/power_manager" 
            name="chromiumos/platform/power_manager" />
-  <project path="src/platform/recovery_installer" 
-           name="chromiumos/platform/recovery_installer" />
   <project path="src/platform/saft" name="chromiumos/platform/saft" />
   <project path="src/platform/speech_synthesis" 
            name="chromiumos/platform/speech_synthesis" />
@@ -119,13 +121,11 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/kernel" />
   <project path="src/third_party/kernel-next" 
            name="chromiumos/third_party/kernel-next" 
-           revision="refs/heads/chromeos-2.6.36" />
+           revision="refs/heads/chromeos-2.6.37" />
   <project path="src/third_party/flimflam" 
            name="chromiumos/platform/flimflam" />
   <project path="src/third_party/xf86-input-synaptics" 
            name="chromiumos/third_party/xf86-input-synaptics" />
-  <project path="src/third_party/upstart/files" 
-           name="chromiumos/third_party/upstart" />
   <project path="src/third_party/u-boot/files" 
            name="chromiumos/third_party/u-boot" />
   <project path="src/third_party/u-boot-next/files" 

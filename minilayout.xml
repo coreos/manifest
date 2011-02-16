@@ -10,6 +10,10 @@
 Your sources have been sync'd successfully.
   </notice>
 
+  <project path="chromite" name="chromiumos/chromite" >
+    <copyfile src="AUTHORS" dest="AUTHORS" />
+    <copyfile src="LICENSE" dest="LICENSE" />
+  </project>
   <project path="src/overlays" name="chromiumos/overlays/board-overlays" />
   <project path="src/scripts" name="chromiumos/platform/crosutils" />
   <project path="src/third_party/portage" name="chromiumos/overlays/portage" />
