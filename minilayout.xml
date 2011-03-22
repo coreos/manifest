@@ -17,7 +17,7 @@ Your sources have been sync'd successfully.
   <project path="src/overlays" name="chromiumos/overlays/board-overlays" />
   <project path="src/scripts" name="chromiumos/platform/crosutils" />
   <project path="src/third_party/portage" name="chromiumos/overlays/portage" />
-  <project path="src/third_party/chromiumos-overlay" 
+  <project path="src/third_party/chromiumos-overlay"
            name="chromiumos/overlays/chromiumos-overlay" >
            <copyfile src="codereview.settings" dest="codereview.settings" />
            <copyfile src="ROOT_PRESUBMIT.py" dest="PRESUBMIT.py" />
@@ -26,5 +26,7 @@ Your sources have been sync'd successfully.
 <!--Non overlays need to be removed from here into ebuilds-->
   <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
   <project path="src/platform/installer" name="chromiumos/platform/installer" />
+  <project path="src/platform/crostestutils"
+           name="chromiumos/platform/crostestutils" />
 
 </manifest>
