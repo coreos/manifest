@@ -31,6 +31,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/crash-reporter" />
   <project path="src/platform/cromo" name="chromiumos/platform/cromo" />
   <project path="src/platform/cros" name="chromiumos/platform/cros" />
+  <project path="src/platform/crosh" name="chromiumos/platform/crosh" />
+  <project path="src/platform/cros-disks" name="chromiumos/platform/cros-disks" />
   <project path="src/platform/cros_boot_mode"
            name="chromiumos/platform/cros_boot_mode" />
   <project path="src/platform/crostestutils"
@@ -66,6 +68,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/microbenchmark"
            name="chromiumos/platform/microbenchmark" />
   <project path="src/platform/minijail" name="chromiumos/platform/minijail" />
+  <project path="src/platform/modem-utilities"
+           name="chromiumos/platform/modem-utilities" />
   <project path="src/platform/monitor_reconfig"
            name="chromiumos/platform/monitor_reconfig" />
   <project path="src/platform/power_manager"
@@ -77,6 +81,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/tpm_init" name="chromiumos/platform/tpm_init" />
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/uboot-env" name="chromiumos/platform/uboot-env" />
+  <project path="src/platform/u-boot-config"
+           name="chromiumos/platform/u-boot-config" />
   <project path="src/platform/update_engine"
            name="chromiumos/platform/update_engine" />
   <project path="src/platform/userfeedback"
@@ -105,6 +111,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/flashrom" />
   <project path="src/third_party/khronos"
            name="chromiumos/third_party/khronos" />
+  <project path="src/third_party/ktop"
+           name="chromiumos/third_party/ktop" />
   <project path="src/third_party/libscrypt"
            name="chromiumos/third_party/libscrypt" />
   <project path="src/third_party/marvell"
@@ -129,6 +137,10 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/ibus-chewing" />
   <project path="src/third_party/ibus-xkb-layouts/files"
            name="chromiumos/third_party/ibus-xkb-layouts" />
+  <project path="src/third_party/tegra-power-query"
+           name="chromiumos/third_party/tegra-power-query" />
+  <project path="src/third_party/tegrastats"
+           name="chromiumos/third_party/tegrastats" />
   <project path="src/third_party/tpm" name="chromiumos/platform/tpm" />
   <project path="src/third_party/tpm-emulator"
            name="chromiumos/third_party/tpm-emulator" />
