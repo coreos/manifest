@@ -75,10 +75,10 @@ Your sources have been sync'd successfully.
   <project path="src/platform/power_manager"
            name="chromiumos/platform/power_manager" />
   <project path="src/platform/saft" name="chromiumos/platform/saft" />
+  <project path="src/platform/shill" name="chromiumos/platform/shill" />
   <project path="src/platform/speech_synthesis"
            name="chromiumos/platform/speech_synthesis" />
   <project path="src/platform/theme" name="chromiumos/platform/theme" />
-  <project path="src/platform/tpm_init" name="chromiumos/platform/tpm_init" />
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/uboot-env" name="chromiumos/platform/uboot-env" />
   <project path="src/platform/u-boot-config"
@@ -150,7 +150,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/kernel" />
   <project path="src/third_party/kernel-next"
            name="chromiumos/third_party/kernel-next"
-           revision="refs/heads/chromeos-2.6.37" />
+           revision="refs/heads/chromeos-2.6.38" />
   <project path="src/third_party/flimflam"
            name="chromiumos/platform/flimflam" />
   <project path="src/third_party/xf86-input-synaptics"
