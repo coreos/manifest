@@ -109,6 +109,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/dhcpcd" />
   <project path="src/third_party/flashrom"
            name="chromiumos/third_party/flashrom" />
+  <project path="src/third_party/hdctools"
+           name="chromiumos/third_party/hdctools" />
   <project path="src/third_party/khronos"
            name="chromiumos/third_party/khronos" />
   <project path="src/third_party/ktop"
