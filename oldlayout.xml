@@ -174,8 +174,6 @@ Your sources have been sync'd successfully.
            <copyfile src="codereview.settings" dest="codereview.settings" />
            <copyfile src="ROOT_PRESUBMIT.py" dest="PRESUBMIT.py" />
   </project>
-  <project path="src/third_party/laptop-mode-tools"
-           name="chromiumos/third_party/laptop-mode-tools" />
   <project path="src/third_party/modemmanager"
            name="chromiumos/third_party/modemmanager" />
   <project path="src/third_party/libresample"
