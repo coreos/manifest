@@ -171,8 +171,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/overlays/portage-stable" />
   <project path="src/third_party/chromiumos-overlay"
            name="chromiumos/overlays/chromiumos-overlay" >
-           <copyfile src="codereview.settings" dest="codereview.settings" />
-           <copyfile src="ROOT_PRESUBMIT.py" dest="PRESUBMIT.py" />
   </project>
   <project path="src/third_party/modemmanager"
            name="chromiumos/third_party/modemmanager" />
