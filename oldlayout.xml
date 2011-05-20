@@ -25,8 +25,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/chromiumos-assets"
            name="chromiumos/platform/chromiumos-assets" />
   <project path="src/platform/crash" name="chromiumos/platform/crash" />
-  <project path="src/platform/crash-dumper"
-           name="chromiumos/platform/crash-dumper" />
   <project path="src/platform/crash-reporter"
            name="chromiumos/platform/crash-reporter" />
   <project path="src/platform/cromo" name="chromiumos/platform/cromo" />
