@@ -125,6 +125,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/multitouch" />
   <project path="src/third_party/ply-image"
            name="chromiumos/third_party/ply-image" />
+  <project path="src/third_party/seabios"
+           name="chromiumos/third_party/seabios" />
 
   <project path="src/overlays"
            name="chromiumos/overlays/board-overlays" />
