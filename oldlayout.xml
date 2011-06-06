@@ -159,7 +159,8 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/xf86-input-synaptics"
            name="chromiumos/third_party/xf86-input-synaptics" />
   <project path="src/third_party/u-boot/files"
-           name="chromiumos/third_party/u-boot" />
+           name="chromiumos/third_party/u-boot"
+           revision="refs/heads/chromeos-v2010.09" />
   <project path="src/third_party/u-boot-next/files"
            name="chromiumos/third_party/u-boot-next"
            revision="refs/heads/chromeos-v2010.09" />
