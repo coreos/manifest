@@ -165,7 +165,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-v2010.09" />
   <project path="src/third_party/u-boot-next/files"
            name="chromiumos/third_party/u-boot-next"
-           revision="refs/heads/chromeos-v2010.09" />
+           revision="refs/heads/chromeos-v2011.03" />
   <project path="src/third_party/wpa_supplicant"
            name="chromiumos/third_party/hostap" />
   <project path="src/third_party/portage"
