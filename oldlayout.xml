@@ -184,4 +184,78 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/grub2" name="chromiumos/third_party/grub2" />
   <project path="src/third_party/dbus-c++"
            name="chromiumos/third_party/dbus-cplusplus" />
+
+  <!-- begin Chromium (browser) projects -->
+
+  <project path="chromium/src" name="chromium/src" />
+  <project path="chromium/src/breakpad/src"
+           name="external/google-breakpad/src" />
+  <project path="chromium/src/build/util/support" name="chromium/support" />
+  <project path="chromium/src/chrome/test/data/extensions/api_te/permissions/nacl_enabled/bin"
+           name="native_client/src/native_client/tests/prebuilt" />
+  <project path="chromium/src/googleurl"
+           name="external/google-url" />
+  <project path="chromium/src/native_client"
+           name="native_client/src/native_client" />
+  <project path="chromium/src/sdch/open-vcdiff" name="external/open-vcdiff" />
+  <project path="chromium/src/seccompsandbox" name="external/seccompsandbox" />
+  <project path="chromium/src/testing/gmock" name="external/googlemock" />
+  <project path="chromium/src/testing/gtest" name="external/googletest" />
+  <project path="chromium/src/third_party/WebKit"
+           name="external/Webkit" />
+  <project path="chromium/src/third_party/angle" name="external/angleproject" />
+  <project path="chromium/src/third_party/bidichecker"
+           name="external/bidichecker/lib" />
+  <project path="chromium/src/third_party/cacheinvalidation/files/src/google"
+           name="external/google-cache-invalidation-api/src/google" />
+  <project path="chromium/src/third_party/ffmpeg"
+           name="chromium/deps/ffmpeg/source" />
+  <project path="chromium/src/third_party/flac" name="chromium/deps/flac" />
+  <project path="chromium/src/third_party/hunspell"
+           name="chromium/deps/hunspell" />
+  <project path="chromium/src/third_party/hunspell_dictionaries"
+           name="chromium/deps/hunspell_dictionaries" />
+  <project path="chromium/src/third_party/icu" name="chromium/deps/icu46" />
+  <project path="chromium/src/third_party/leveldb" name="external/leveldb" />
+  <project path="chromium/src/third_party/libjingle/source"
+           name="external/libjingle" />
+  <project path="chromium/src/third_party/libjpeg_turbo"
+           name="chromium/deps/libjpeg_turbo" />
+  <project path="chromium/src/third_party/libvpx" name="chromium/deps/libvpx" />
+  <project path="chromium/src/third_party/ots" name="external/ots" />
+  <project path="chromium/src/third_party/pylib"
+           name="native_client/src/third_party/pylib" />
+  <project path="chromium/src/third_party/safe_browsing/testing"
+           name="external/google-safe-browsing/testing" />
+  <project path="chromium/src/third_party/scons-2.0.1"
+           name="native_client/src/third_party/scons-2.0.1" />
+  <project path="chromium/src/third_party/skia/gpu" name="external/skia/gpu" />
+  <project path="chromium/src/third_party/skia/include"
+           name="external/skia/include" />
+  <project path="chromium/src/third_party/skia/src" name="external/skia/src" />
+  <project path="chromium/src/third_party/skia/third_party/glu"
+           name="external/skia/third_party/glu" />
+  <project path="chromium/src/third_party/snappy/src" name="external/snappy" />
+  <project path="chromium/src/third_party/speex" name="chromium/deps/speex" />
+  <project path="chromium/src/third_party/swig/Lib"
+           name="chromium/deps/swig/Lib" />
+  <project path="chromium/src/third_party/webdriver/python/selenium"
+           name="external/selenium/py/selenium" />
+  <project path="chromium/src/third_party/yasm/source/patched-yasm"
+           name="chromium/deps/yasm/patched-yasm" />
+  <project path="chromium/src/tools/gyp" name="external/gyp" />
+  <project path="chromium/src/tools/page_cycler/acid3"
+           name="chromium/deps/acid3" />
+  <project path="chromium/src/v8" name="external/v8" />
+  <project path="chromium/src/chrome/tools/test/reference_build/chrome_linux"
+           name="chromium/reference_builds/chrome_linux" />
+  <project path="chromium/src/third_party/lss"
+           name="external/linux-syscall-support/lss" />
+  <project path="chromium/src/third_party/openssl"
+           name="chromium/deps/openssl" />
+  <project path="chromium/src/third_party/swig/linux"
+           name="chromium/deps/swig/linux" />
+  <project path="chromium/src/third_party/xdg-utils"
+           name="chromium/deps/xdg-utils" />
+
 </manifest>
