@@ -74,6 +74,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/monitor_reconfig" />
   <project path="src/platform/power_manager"
            name="chromiumos/platform/power_manager" />
+  <project path="src/platform/punybench"
+           name="chromiumos/platform/punybench" />
   <project path="src/platform/saft" name="chromiumos/platform/saft" />
   <project path="src/platform/shill" name="chromiumos/platform/shill" />
   <project path="src/platform/speech_synthesis"
