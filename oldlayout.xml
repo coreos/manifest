@@ -188,76 +188,121 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/dbus-cplusplus" />
 
   <!-- begin Chromium (browser) projects -->
+  <!-- Hardcoded revision="refs/heads/master" is intentional here -->
 
-  <project path="chromium/src" name="chromium/src" />
+  <project path="chromium/src" name="chromium/src"
+           revision="refs/heads/master" />
   <project path="chromium/src/breakpad/src"
-           name="external/google-breakpad/src" />
-  <project path="chromium/src/build/util/support" name="chromium/support" />
+           name="external/google-breakpad/src"
+           revision="refs/heads/master" />
+  <project path="chromium/src/build/util/support" name="chromium/support"
+           revision="refs/heads/master" />
   <project path="chromium/src/chrome/test/data/extensions/api_te/permissions/nacl_enabled/bin"
-           name="native_client/src/native_client/tests/prebuilt" />
+           name="native_client/src/native_client/tests/prebuilt"
+           revision="refs/heads/master" />
   <project path="chromium/src/googleurl"
-           name="external/google-url" />
+           name="external/google-url"
+           revision="refs/heads/master" />
   <project path="chromium/src/native_client"
-           name="native_client/src/native_client" />
-  <project path="chromium/src/sdch/open-vcdiff" name="external/open-vcdiff" />
-  <project path="chromium/src/seccompsandbox" name="external/seccompsandbox" />
-  <project path="chromium/src/testing/gmock" name="external/googlemock" />
-  <project path="chromium/src/testing/gtest" name="external/googletest" />
+           name="native_client/src/native_client"
+           revision="refs/heads/master" />
+  <project path="chromium/src/sdch/open-vcdiff" name="external/open-vcdiff"
+           revision="refs/heads/master" />
+  <project path="chromium/src/seccompsandbox" name="external/seccompsandbox"
+           revision="refs/heads/master" />
+  <project path="chromium/src/testing/gmock" name="external/googlemock"
+           revision="refs/heads/master" />
+  <project path="chromium/src/testing/gtest" name="external/googletest"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/WebKit"
-           name="external/Webkit" />
-  <project path="chromium/src/third_party/angle" name="external/angleproject" />
+           name="external/Webkit"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/angle" name="external/angleproject"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/bidichecker"
-           name="external/bidichecker/lib" />
+           name="external/bidichecker/lib"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/cacheinvalidation/files/src/google"
-           name="external/google-cache-invalidation-api/src/google" />
+           name="external/google-cache-invalidation-api/src/google"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/ffmpeg"
-           name="chromium/deps/ffmpeg/source" />
-  <project path="chromium/src/third_party/flac" name="chromium/deps/flac" />
+           name="chromium/deps/ffmpeg/source"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/flac" name="chromium/deps/flac"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/hunspell"
-           name="chromium/deps/hunspell" />
+           name="chromium/deps/hunspell"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/hunspell_dictionaries"
-           name="chromium/deps/hunspell_dictionaries" />
-  <project path="chromium/src/third_party/icu" name="chromium/deps/icu46" />
-  <project path="chromium/src/third_party/leveldb" name="external/leveldb" />
+           name="chromium/deps/hunspell_dictionaries"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/icu" name="chromium/deps/icu46"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/leveldb" name="external/leveldb"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/libjingle/source"
-           name="external/libjingle" />
+           name="external/libjingle"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/libjpeg_turbo"
-           name="chromium/deps/libjpeg_turbo" />
-  <project path="chromium/src/third_party/libvpx" name="chromium/deps/libvpx" />
-  <project path="chromium/src/third_party/ots" name="external/ots" />
+           name="chromium/deps/libjpeg_turbo"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/libvpx" name="chromium/deps/libvpx"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/ots" name="external/ots"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/pylib"
-           name="native_client/src/third_party/pylib" />
+           name="native_client/src/third_party/pylib"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/safe_browsing/testing"
-           name="external/google-safe-browsing/testing" />
+           name="external/google-safe-browsing/testing"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/scons-2.0.1"
-           name="native_client/src/third_party/scons-2.0.1" />
-  <project path="chromium/src/third_party/skia/gpu" name="external/skia/gpu" />
+           name="native_client/src/third_party/scons-2.0.1"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/skia/gpu" name="external/skia/gpu"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/skia/include"
-           name="external/skia/include" />
-  <project path="chromium/src/third_party/skia/src" name="external/skia/src" />
+           name="external/skia/include"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/skia/src" name="external/skia/src"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/skia/third_party/glu"
-           name="external/skia/third_party/glu" />
-  <project path="chromium/src/third_party/snappy/src" name="external/snappy" />
-  <project path="chromium/src/third_party/speex" name="chromium/deps/speex" />
+           name="external/skia/third_party/glu"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/snappy/src" name="external/snappy"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/speex" name="chromium/deps/speex"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/swig/Lib"
-           name="chromium/deps/swig/Lib" />
+           name="chromium/deps/swig/Lib"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/webdriver/python/selenium"
-           name="external/selenium/py/selenium" />
+           name="external/selenium/py/selenium"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/yasm/source/patched-yasm"
-           name="chromium/deps/yasm/patched-yasm" />
-  <project path="chromium/src/tools/gyp" name="external/gyp" />
+           name="chromium/deps/yasm/patched-yasm"
+           revision="refs/heads/master" />
+  <project path="chromium/src/tools/gyp" name="external/gyp"
+           revision="refs/heads/master" />
   <project path="chromium/src/tools/page_cycler/acid3"
-           name="chromium/deps/acid3" />
-  <project path="chromium/src/v8" name="external/v8" />
+           name="chromium/deps/acid3"
+           revision="refs/heads/master" />
+  <project path="chromium/src/v8" name="external/v8"
+           revision="refs/heads/master" />
   <project path="chromium/src/chrome/tools/test/reference_build/chrome_linux"
-           name="chromium/reference_builds/chrome_linux" />
+           name="chromium/reference_builds/chrome_linux"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/lss"
-           name="external/linux-syscall-support/lss" />
+           name="external/linux-syscall-support/lss"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/openssl"
-           name="chromium/deps/openssl" />
+           name="chromium/deps/openssl"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/swig/linux"
-           name="chromium/deps/swig/linux" />
+           name="chromium/deps/swig/linux"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/xdg-utils"
-           name="chromium/deps/xdg-utils" />
+           name="chromium/deps/xdg-utils"
+           revision="refs/heads/master" />
 
 </manifest>
