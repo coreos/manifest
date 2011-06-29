@@ -188,6 +188,8 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/grub2" name="chromiumos/third_party/grub2" />
   <project path="src/third_party/dbus-c++"
            name="chromiumos/third_party/dbus-cplusplus" />
+  <project path="src/third_party/mobile-broadband-provider-info"
+           name="chromiumos/third_party/mobile-broadband-provider-info" />
 
   <!-- begin Chromium (browser) projects -->
   <!-- Hardcoded revision="refs/heads/master" is intentional here -->
