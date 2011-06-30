@@ -80,6 +80,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/shill" name="chromiumos/platform/shill" />
   <project path="src/platform/speech_synthesis"
            name="chromiumos/platform/speech_synthesis" />
+  <project path="src/platform/spigots"
+           name="chromiumos/platform/spigots" />
   <project path="src/platform/theme" name="chromiumos/platform/theme" />
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/uboot-env" name="chromiumos/platform/uboot-env" />
