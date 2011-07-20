@@ -111,6 +111,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/cbootimage" />
   <project path="src/third_party/chrontel"
            name="chromiumos/third_party/chrontel" />
+  <project path="src/third_party/cypress-tools"
+           name="chromiumos/third_party/cypress-tools" />
   <project path="src/third_party/dhcpcd"
            name="chromiumos/third_party/dhcpcd" />
   <project path="src/third_party/flashrom"
