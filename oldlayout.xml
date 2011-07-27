@@ -205,7 +205,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/master" />
   <project path="chromium/src/build/util/support" name="chromium/support"
            revision="refs/heads/master" />
-  <project path="chromium/src/chrome/test/data/extensions/api_te/permissions/nacl_enabled/bin"
+  <project path="chromium/src/chrome/test/data/extensions/api_test/permissions/nacl_enabled/bin"
            name="native_client/src/native_client/tests/prebuilt"
            revision="refs/heads/master" />
   <project path="chromium/src/googleurl"
@@ -213,6 +213,24 @@ Your sources have been sync'd successfully.
            revision="refs/heads/master" />
   <project path="chromium/src/native_client"
            name="native_client/src/native_client"
+           revision="refs/heads/master" />
+  <project path="chromium/src/native_client/src/third_party/ppapi"
+           name="chromium/src/ppapi"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/webgl_conformance"
+           name="chromium/deps/webgl/sdk/tests"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/pyftpdlib/src"
+           name="external/pyftpdlib"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/sfntly/src/sfntly"
+           name="external/sfntly/cpp/src/sfntly"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/webrtc"
+           name="external/webrtc/src"
+           revision="refs/heads/master" />
+  <project path="chromium/src/chrome/test/data/perf/frame_rate/content"
+           name="chromium/frame_rate/content"
            revision="refs/heads/master" />
   <project path="chromium/src/sdch/open-vcdiff" name="external/open-vcdiff"
            revision="refs/heads/master" />
@@ -223,7 +241,7 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/testing/gtest" name="external/googletest"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/WebKit"
-           name="external/Webkit"
+           name="external/WebKit_trimmed"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/angle" name="external/angleproject"
            revision="refs/heads/master" />
