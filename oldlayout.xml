@@ -125,6 +125,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/ktop" />
   <project path="src/third_party/libscrypt"
            name="chromiumos/third_party/libscrypt" />
+  <project path="src/third_party/libc-bench"
+           name="chromiumos/third_party/libc-bench" />
   <project path="src/third_party/marvell"
            name="chromiumos/third_party/marvell" />
   <project path="src/third_party/miniFakeDns"
