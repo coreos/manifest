@@ -103,6 +103,10 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/workarounds" />
   <project path="src/platform/xf86-input-cmt"
            name="chromiumos/platform/xf86-input-cmt" />
+  <project path="src/third_party/alsa-lib"
+           name="chromiumos/third_party/alsa-lib"/>
+  <project path="src/third_party/alsa-utils"
+           name="chromiumos/third_party/alsa-utils"/>
   <project path="src/third_party/atheros"
            name="chromiumos/third_party/atheros" />
   <project path="src/third_party/bootstub"
