@@ -87,8 +87,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/theme" name="chromiumos/platform/theme" />
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/uboot-env" name="chromiumos/platform/uboot-env" />
-  <project path="src/platform/u-boot-config"
-           name="chromiumos/platform/u-boot-config" />
   <project path="src/platform/update_engine"
            name="chromiumos/platform/update_engine" />
   <project path="src/platform/userfeedback"
@@ -182,9 +180,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-input-synaptics" />
   <project path="src/third_party/u-boot/files"
            name="chromiumos/third_party/u-boot"
-           revision="refs/heads/chromeos-v2011.03" />
-  <project path="src/third_party/u-boot-next/files"
-           name="chromiumos/third_party/u-boot-next"
            revision="refs/heads/chromeos-v2011.03" />
   <project path="src/third_party/u-boot-v1/files"
            name="chromiumos/third_party/u-boot-v1" />
