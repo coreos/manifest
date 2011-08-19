@@ -72,6 +72,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/modem-utilities" />
   <project path="src/platform/monitor_reconfig"
            name="chromiumos/platform/monitor_reconfig" />
+  <project path="src/platform/mtplot" name="chromiumos/platform/mtplot" />
   <project path="src/platform/power_manager"
            name="chromiumos/platform/power_manager" />
   <project path="src/platform/punybench"
