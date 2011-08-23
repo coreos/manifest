@@ -273,7 +273,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/icu" name="chromium/deps/icu46"
            revision="refs/heads/master" />
-  <project path="chromium/src/third_party/leveldb" name="external/leveldb"
+  <project path="chromium/src/third_party/leveldatabase/src" name="external/leveldb"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/libjingle/source"
            name="external/libjingle"
