@@ -182,7 +182,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-input-synaptics" />
   <project path="src/third_party/u-boot/files"
            name="chromiumos/third_party/u-boot"
-           revision="refs/heads/chromeos-v2011.06" />
+           revision="refs/heads/chromeos-v2011.03" />
   <project path="src/third_party/u-boot-v1/files"
            name="chromiumos/third_party/u-boot-v1" />
   <project path="src/third_party/wpa_supplicant"
