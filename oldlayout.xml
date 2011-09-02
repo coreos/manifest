@@ -123,6 +123,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/cypress-tools" />
   <project path="src/third_party/dhcpcd"
            name="chromiumos/third_party/dhcpcd" />
+  <project path="src/third_party/flashmap"
+           name="chromiumos/third_party/flashmap" />
   <project path="src/third_party/flashrom"
            name="chromiumos/third_party/flashrom" />
   <project path="src/third_party/hdctools"
