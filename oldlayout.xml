@@ -345,5 +345,8 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/xdg-utils"
            name="chromium/deps/xdg-utils"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/mozc/session"
+           name="external/mozc/src/session"
+           revision="refs/heads/master" />
 
 </manifest>
