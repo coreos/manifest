@@ -22,6 +22,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/autox" name="chromiumos/platform/autox" />
   <project path="src/platform/bootstat" name="chromiumos/platform/bootstat" />
   <project path="src/platform/cashew" name="chromiumos/platform/cashew" />
+  <project path="src/platform/chaps" name="chromiumos/platform/chaps" />
   <project path="src/platform/chromiumos-assets"
            name="chromiumos/platform/chromiumos-assets" />
   <project path="src/platform/crash" name="chromiumos/platform/crash" />
