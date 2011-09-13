@@ -80,6 +80,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/punybench" />
   <project path="src/platform/saft" name="chromiumos/platform/saft" />
   <project path="src/platform/shill" name="chromiumos/platform/shill" />
+  <project path="src/platform/smogcheck" name="chromiumos/platform/smogcheck" />
   <project path="src/platform/speech_synthesis"
            name="chromiumos/platform/speech_synthesis" />
   <project path="src/platform/spigots"
