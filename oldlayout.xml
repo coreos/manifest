@@ -351,5 +351,8 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/mozc/session"
            name="external/mozc/src/session"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/smhasher/src"
+           name="external/smhasher"
+           revision="refs/heads/master" />
 
 </manifest>
