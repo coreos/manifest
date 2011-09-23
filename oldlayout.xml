@@ -354,5 +354,8 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/smhasher/src"
            name="external/smhasher"
            revision="refs/heads/master" />
+  <project path="chromium/src/tools/grit"
+           name="external/grit-i18n"
+           revision="refs/heads/master" />
 
 </manifest>
