@@ -38,6 +38,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/crostestutils" />
   <project path="src/platform/cryptohome"
            name="chromiumos/platform/cryptohome" />
+  <project path="src/platform/debugd" name="chromiumos/platform/debugd" />
   <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
   <project path="src/platform/dump-syms" name="chromiumos/platform/dump-syms" />
   <project path="src/platform/entd" name="chromiumos/platform/entd" />
