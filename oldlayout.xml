@@ -335,7 +335,7 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/tools/page_cycler/acid3"
            name="chromium/deps/acid3"
            revision="refs/heads/master" />
-  <project path="chromium/src/v8" name="external/v8"
+  <project path="chromium/src/v8" name="external/v8/3.6"
            revision="refs/heads/master" />
   <project path="chromium/src/chrome/tools/test/reference_build/chrome_linux"
            name="chromium/reference_builds/chrome_linux"
