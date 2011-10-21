@@ -159,6 +159,10 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/seabios"
            name="chromiumos/third_party/seabios"
            revision="refs/heads/chromeos-1.6.3" />
+  <project path="src/third_party/wayland"
+           name="chromiumos/third_party/wayland" />
+  <project path="src/third_party/wayland-demos"
+           name="chromiumos/third_party/wayland-demos" />
 
   <project path="src/overlays"
            name="chromiumos/overlays/board-overlays" />
