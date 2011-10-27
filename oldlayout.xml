@@ -53,8 +53,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/factory-utils"
            name="chromiumos/platform/factory-utils" />
   <project path="src/platform/firmware" name="chromiumos/platform/firmware" />
-  <project path="src/platform/firmware-utils"
-           name="chromiumos/platform/firmware-utils" />
   <project path="src/platform/gestures"
            name="chromiumos/platform/gestures" />
   <project path="src/platform/google-breakpad"
