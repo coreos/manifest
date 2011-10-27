@@ -29,6 +29,8 @@ Your sources have been sync'd successfully.
 <!--Non overlays need to be removed from here into ebuilds-->
   <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
   <project path="src/platform/installer" name="chromiumos/platform/installer" />
+  <project path="src/platform/factory-utils"
+           name="chromiumos/platform/factory-utils" />
   <project path="src/platform/crostestutils"
            name="chromiumos/platform/crostestutils" />
 
