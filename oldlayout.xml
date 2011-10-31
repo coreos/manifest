@@ -366,11 +366,11 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/snappy/src"
            name="external/snappy"
            revision="refs/heads/master" />
-  <project path="chromium/src/v8"
-           name="external/v8"
-           revision="refs/heads/master" />
   <project path="chromium/src/third_party/v8-i18n"
            name="external/v8-i18n"
+           revision="refs/heads/master" />
+  <project path="chromium/src/v8"
+           name="external/v8/3.6"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/webrtc"
            name="external/webrtc/src"
