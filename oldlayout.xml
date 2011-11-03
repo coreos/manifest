@@ -327,6 +327,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/libjingle/source"
            name="external/libjingle"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/libyuv"
+           name="external/libyuv"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/lss"
            name="external/linux-syscall-support/lss"
            revision="refs/heads/master" />
