@@ -237,6 +237,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/flac"
            name="chromium/deps/flac"
            revision="refs/heads/master" />
+  <project path="chromium/src/chrome/browser/resources/software_rendering_list"
+           name="chromium/deps/gpu/software_rendering_list"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/hunspell"
            name="chromium/deps/hunspell"
            revision="refs/heads/master" />
