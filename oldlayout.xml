@@ -331,6 +331,15 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/libjingle/source"
            name="external/libjingle"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/libphonenumber/src/phonenumbers"
+           name="external/libphonenumber/cpp/src/phonenumbers"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/libphonenumber/src/test"
+           name="external/libphonenumber/cpp/test"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/libphonenumber/src/resources"
+           name="external/libphonenumber/resources"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/libyuv"
            name="external/libyuv"
            revision="refs/heads/master" />
