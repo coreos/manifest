@@ -346,6 +346,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/lss"
            name="external/linux-syscall-support/lss"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/mozc/chrome/chromeos/renderer"
+           name="external/mozc/src/chrome/chromeos/renderer"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/mozc/session"
            name="external/mozc/src/session"
            revision="refs/heads/master" />
