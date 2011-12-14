@@ -370,8 +370,8 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/webdriver/pylib"
            name="external/selenium/py"
            revision="refs/heads/master" />
-  <project path="chromium/src/third_party/sfntly/src/sfntly"
-           name="external/sfntly/cpp/src/sfntly"
+  <project path="chromium/src/third_party/sfntly/cpp/src"
+           name="external/sfntly/cpp/src"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/skia/include"
            name="external/skia/include"
