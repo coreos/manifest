@@ -213,6 +213,8 @@ Your sources have been sync'd successfully.
   </project>
   <project path="src/third_party/modemmanager"
            name="chromiumos/third_party/modemmanager" />
+  <project path="src/third_party/modemmanager-next"
+           name="chromiumos/third_party/modemmanager-next" />
   <project path="src/third_party/libresample"
            name="chromiumos/third_party/libresample" />
   <project path="src/third_party/rootdev"
