@@ -128,6 +128,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/chrontel" />
   <project path="src/third_party/cypress-tools"
            name="chromiumos/third_party/cypress-tools" />
+  <project path="src/third_party/dbus-spy"
+           name="chromiumos/third_party/dbus-spy" />
   <project path="src/third_party/dhcpcd"
            name="chromiumos/third_party/dhcpcd" />
   <project path="src/third_party/flashmap"
