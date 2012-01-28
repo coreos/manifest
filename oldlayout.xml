@@ -263,6 +263,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/libjpeg_turbo"
            name="chromium/deps/libjpeg_turbo"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/libsrtp"
+           name="chromium/deps/libsrtp"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/libvpx"
            name="chromium/deps/libvpx"
            revision="refs/heads/master" />
