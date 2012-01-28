@@ -200,7 +200,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-3.0" />
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc"
-           revision="refs/heads/gcc.gnu.org/branches/google/gcc-4_6" />
+           revision="refs/heads/gcc.gnu.org/branches/google/gcc-4_6-mobile" />
   <project path="src/third_party/flimflam"
            name="chromiumos/platform/flimflam" />
   <project path="src/third_party/xf86-input-synaptics"
