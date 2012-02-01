@@ -197,7 +197,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-3.0" />
   <project path="src/third_party/kernel-next"
            name="chromiumos/third_party/kernel-next"
-           revision="refs/heads/chromeos-3.0" />
+           revision="refs/heads/chromeos-3.2" />
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc"
            revision="refs/heads/gcc.gnu.org/branches/google/gcc-4_6-mobile" />
