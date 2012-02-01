@@ -281,6 +281,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/swig/linux"
            name="chromium/deps/swig/linux"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/undoview"
+           name="chromium/deps/undoview"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/webgl_conformance"
            name="chromium/deps/webgl/sdk/tests"
            revision="refs/heads/master" />
