@@ -19,6 +19,7 @@ Your sources have been sync'd successfully.
   </project>
   <project path="src/platform/acpi" name="chromiumos/platform/acpi" />
   <project path="src/platform/assets" name="chromiumos/platform/assets" />
+  <project path="src/platform/audiotest" name="chromiumos/platform/audiotest" />
   <project path="src/platform/autox" name="chromiumos/platform/autox" />
   <project path="src/platform/bootstat" name="chromiumos/platform/bootstat" />
   <project path="src/platform/cashew" name="chromiumos/platform/cashew" />
