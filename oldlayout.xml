@@ -201,8 +201,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/kernel-next"
            revision="refs/heads/chromeos-3.2" />
   <project path="src/third_party/gcc"
-           name="chromiumos/third_party/gcc"
-           revision="refs/heads/gcc.gnu.org/branches/google/gcc-4_6-mobile" />
+           name="chromiumos/third_party/gcc" />
   <project path="src/third_party/flimflam"
            name="chromiumos/platform/flimflam" />
   <project path="src/third_party/xf86-input-synaptics"
