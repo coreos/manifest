@@ -202,6 +202,12 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-3.2" />
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc" />
+  <project path="src/third_party/glibc"
+           name="chromiumos/third_party/glibc" />
+  <project path="src/third_party/glibc-ports"
+           name="chromiumos/third_party/glibc-ports" />
+  <project path="src/third_party/binutils"
+           name="chromiumos/third_party/binutils" />
   <project path="src/third_party/flimflam"
            name="chromiumos/platform/flimflam" />
   <project path="src/third_party/xf86-input-synaptics"
