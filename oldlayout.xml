@@ -253,7 +253,7 @@ Your sources have been sync'd successfully.
            name="chromium/deps/acid3"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/ffmpeg"
-           name="chromium/deps/ffmpeg/source"
+           name="chromium/deps/ffmpeg"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/flac"
            name="chromium/deps/flac"
