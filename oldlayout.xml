@@ -135,6 +135,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/dbus-spy" />
   <project path="src/third_party/dhcpcd"
            name="chromiumos/third_party/dhcpcd" />
+  <project path="src/third_party/dtc" name="chromiumos/third_party/dtc" />
   <project path="src/third_party/flashmap"
            name="chromiumos/third_party/flashmap" />
   <project path="src/third_party/flashrom"
