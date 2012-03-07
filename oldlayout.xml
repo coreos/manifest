@@ -153,6 +153,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/libc-bench" />
   <project path="src/third_party/marvell"
            name="chromiumos/third_party/marvell" />
+  <project path="src/third_party/memtest"
+           name="chromiumos/third_party/memtest" />
   <project path="src/third_party/miniFakeDns"
            name="chromiumos/third_party/minifakedns" />
   <project path="src/third_party/mtdev"
