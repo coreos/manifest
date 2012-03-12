@@ -200,7 +200,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/trousers" />
   <project path="src/third_party/kernel/files"
            name="chromiumos/third_party/kernel"
-           revision="refs/heads/chromeos-3.2" />
+           revision="refs/heads/chromeos-3.0" />
   <project path="src/third_party/kernel-next"
            name="chromiumos/third_party/kernel-next"
            revision="refs/heads/chromeos-3.2" />
