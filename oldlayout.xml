@@ -430,7 +430,7 @@ Your sources have been sync'd successfully.
            name="external/v8-i18n"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/webrtc"
-           name="external/webrtc/src"
+           name="external/webrtc/stable/src"
            revision="refs/heads/master" />
   <project path="chromium/src/native_client"
            name="native_client/src/native_client"
