@@ -321,6 +321,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/build/util/support"
            name="chromium/support"
            revision="refs/heads/master" />
+  <project path="chromium/src/tools/deps2git"
+           name="chromium/tools/deps2git"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/WebKit"
            name="external/WebKit_trimmed"
            revision="refs/heads/master" />
