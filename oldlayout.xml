@@ -258,9 +258,6 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/tools/page_cycler/acid3"
            name="chromium/deps/acid3"
            revision="refs/heads/master" />
-  <project path="chromium/src/third_party/ffmpeg"
-           name="chromium/deps/ffmpeg"
-           revision="refs/heads/master" />
   <project path="chromium/src/third_party/flac"
            name="chromium/deps/flac"
            revision="refs/heads/master" />
@@ -320,6 +317,9 @@ Your sources have been sync'd successfully.
            revision="refs/heads/master" />
   <project path="chromium/src/build/util/support"
            name="chromium/support"
+           revision="refs/heads/master" />
+  <project path="chromium/src/third_party/ffmpeg"
+           name="chromium/third_party/ffmpeg"
            revision="refs/heads/master" />
   <project path="chromium/src/tools/deps2git"
            name="chromium/tools/deps2git"
