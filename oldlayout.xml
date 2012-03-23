@@ -109,8 +109,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/vpd" name="chromiumos/platform/vpd" />
   <project path="src/platform/vpn-manager"
            name="chromiumos/platform/vpn-manager" />
-  <project path="src/platform/window_manager"
-           name="chromiumos/platform/window_manager" />
   <project path="src/platform/workarounds"
            name="chromiumos/platform/workarounds" />
   <project path="src/platform/xf86-input-cmt"
