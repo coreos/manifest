@@ -19,7 +19,6 @@ Your sources have been sync'd successfully.
   </project>
   <project path="src/overlays" name="chromiumos/overlays/board-overlays" />
   <project path="src/scripts" name="chromiumos/platform/crosutils" />
-  <project path="src/third_party/portage" name="chromiumos/overlays/portage" />
   <project path="src/third_party/portage-stable"
            name="chromiumos/overlays/portage-stable" />
   <project path="src/third_party/chromiumos-overlay"
