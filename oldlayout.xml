@@ -45,6 +45,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
   <project path="src/platform/dump-syms" name="chromiumos/platform/dump-syms" />
   <project path="src/platform/ec" name="chromiumos/platform/ec" />
+  <project path="src/platform/factory" name="chromiumos/platform/factory" />
   <project path="src/platform/factory_installer"
            name="chromiumos/platform/factory_installer" />
   <project path="src/platform/factory_test_init"
