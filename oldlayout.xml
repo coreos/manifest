@@ -50,8 +50,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/factory_installer" />
   <project path="src/platform/factory_test_init"
            name="chromiumos/platform/factory_test_init" />
-  <project path="src/platform/factory_test_tools"
-           name="chromiumos/platform/factory_test_tools" />
   <project path="src/platform/factory-utils"
            name="chromiumos/platform/factory-utils" />
   <project path="src/platform/firmware" name="chromiumos/platform/firmware" />
