@@ -436,6 +436,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/v8-i18n"
            name="external/v8-i18n"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/webpagereplay"
+           name="external/web-page-replay"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/webrtc"
            name="external/webrtc/stable/src"
            revision="refs/heads/master" />
