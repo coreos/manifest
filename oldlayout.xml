@@ -4,7 +4,7 @@
            fetch="http://git.chromium.org/git"
            review="gerrit.chromium.org/gerrit" />
   <default revision="refs/heads/master"
-           remote="cros" />
+           remote="cros" sync-j="8" />
 
   <notice>
 Your sources have been sync'd successfully.
