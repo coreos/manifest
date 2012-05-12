@@ -27,7 +27,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/chromiumos-assets"
            name="chromiumos/platform/chromiumos-assets" />
   <project path="src/platform/common-mk" name="chromiumos/platform/common-mk" />
-  <project path="src/platform/crash" name="chromiumos/platform/crash" />
   <project path="src/platform/crash-reporter"
            name="chromiumos/platform/crash-reporter" />
   <project path="src/platform/cromo" name="chromiumos/platform/cromo" />
@@ -43,7 +42,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/dbusfuzz" name="chromiumos/platform/dbusfuzz" />
   <project path="src/platform/debugd" name="chromiumos/platform/debugd" />
   <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
-  <project path="src/platform/dump-syms" name="chromiumos/platform/dump-syms" />
   <project path="src/platform/ec" name="chromiumos/platform/ec" />
   <project path="src/platform/factory" name="chromiumos/platform/factory" />
   <project path="src/platform/factory_installer"
