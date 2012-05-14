@@ -419,6 +419,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/skia/src"
            name="external/skia/src"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/skia/third_party/glu"
+           name="external/skia/third_party/glu"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/smhasher/src"
            name="external/smhasher"
            revision="refs/heads/master" />
