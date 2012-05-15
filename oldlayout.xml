@@ -174,7 +174,7 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/ply-image" />
   <project path="src/third_party/seabios"
            name="chromiumos/third_party/seabios"
-           revision="refs/heads/chromeos-1.6.3" />
+           revision="refs/heads/chromeos-2012.05.12" />
   <project path="src/third_party/wayland"
            name="chromiumos/third_party/wayland" />
   <project path="src/third_party/wayland-demos"
