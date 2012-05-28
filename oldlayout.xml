@@ -175,12 +175,14 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/seabios"
            name="chromiumos/third_party/seabios"
            revision="refs/heads/chromeos-2012.05.12" />
+  <project path="src/third_party/sysbios"
+           name="chromiumos/third_party/sysbios" />
   <project path="src/third_party/wayland"
            name="chromiumos/third_party/wayland" />
   <project path="src/third_party/wayland-demos"
            name="chromiumos/third_party/wayland-demos" />
-  <project path="src/third_party/sysbios"
-           name="chromiumos/third_party/sysbios" />
+  <project path="src/third_party/xf86-video-armsoc"
+           name="chromiumos/third_party/xf86-video-armsoc" />
 
   <project path="src/overlays"
            name="chromiumos/overlays/board-overlays" />
