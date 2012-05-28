@@ -317,9 +317,6 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/chrome/tools/test/reference_build/chrome_linux"
            name="chromium/reference_builds/chrome_linux"
            revision="refs/heads/master" />
-  <project path="chromium/src/build/util/support"
-           name="chromium/support"
-           revision="refs/heads/master" />
   <project path="chromium/src/third_party/ffmpeg"
            name="chromium/third_party/ffmpeg"
            revision="refs/heads/master" />
