@@ -65,6 +65,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/initramfs" name="chromiumos/platform/initramfs" />
   <project path="src/platform/inputcontrol" name="chromiumos/platform/inputcontrol" />
   <project path="src/platform/installer" name="chromiumos/platform/installer" />
+  <project path="src/platform/libevdev" name="chromiumos/platform/libevdev" />
   <project path="src/platform/libqmi" name="chromiumos/platform/libqmi" />
   <project path="src/platform/login_manager"
            name="chromiumos/platform/login_manager" />
