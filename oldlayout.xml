@@ -163,8 +163,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/mesa" />
   <project path="src/third_party/miniFakeDns"
            name="chromiumos/third_party/minifakedns" />
-  <project path="src/third_party/multitouch"
-           name="chromiumos/third_party/multitouch" />
   <project path="src/third_party/opencryptoki"
            name="chromiumos/third_party/opencryptoki" />
   <project path="src/third_party/openssl"
