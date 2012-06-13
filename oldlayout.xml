@@ -217,8 +217,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/binutils" />
   <project path="src/third_party/flimflam"
            name="chromiumos/platform/flimflam" />
-  <project path="src/third_party/xf86-input-synaptics"
-           name="chromiumos/third_party/xf86-input-synaptics" />
   <project path="src/third_party/u-boot/files"
            name="chromiumos/third_party/u-boot"
            revision="refs/heads/chromeos-v2011.12" />
