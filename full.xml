@@ -10,10 +10,11 @@
 Your sources have been sync'd successfully.
   </notice>
 
-  <project path="src/repohooks" name="chromiumos/repohooks" />
+  <project path="src/repohooks" name="chromiumos/repohooks"
+           groups="minilayout" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="chromiumos/chromite" >
+  <project path="chromite" name="chromiumos/chromite" groups="minilayout" >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -36,12 +37,14 @@ Your sources have been sync'd successfully.
   <project path="src/platform/cros_boot_mode"
            name="chromiumos/platform/cros_boot_mode" />
   <project path="src/platform/crostestutils"
-           name="chromiumos/platform/crostestutils" />
+           name="chromiumos/platform/crostestutils"
+           groups="minilayout" />
   <project path="src/platform/cryptohome"
            name="chromiumos/platform/cryptohome" />
   <project path="src/platform/dbusfuzz" name="chromiumos/platform/dbusfuzz" />
   <project path="src/platform/debugd" name="chromiumos/platform/debugd" />
-  <project path="src/platform/dev" name="chromiumos/platform/dev-util" />
+  <project path="src/platform/dev" name="chromiumos/platform/dev-util"
+           groups="minilayout" />
   <project path="src/platform/ec" name="chromiumos/platform/ec" />
   <project path="src/platform/factory" name="chromiumos/platform/factory" />
   <project path="src/platform/factory_installer"
@@ -51,7 +54,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/factory_test_tools"
            name="chromiumos/platform/factory_test_tools" />
   <project path="src/platform/factory-utils"
-           name="chromiumos/platform/factory-utils" />
+           name="chromiumos/platform/factory-utils"
+           groups="minilayout" />
   <project path="src/platform/firmware" name="chromiumos/platform/firmware" />
   <project path="src/platform/gestures"
            name="chromiumos/platform/gestures" />
@@ -64,7 +68,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/init" name="chromiumos/platform/init" />
   <project path="src/platform/initramfs" name="chromiumos/platform/initramfs" />
   <project path="src/platform/inputcontrol" name="chromiumos/platform/inputcontrol" />
-  <project path="src/platform/installer" name="chromiumos/platform/installer" />
+  <project path="src/platform/installer" name="chromiumos/platform/installer"
+           groups="minilayout" />
   <project path="src/platform/libevdev" name="chromiumos/platform/libevdev" />
   <project path="src/platform/libqmi" name="chromiumos/platform/libqmi" />
   <project path="src/platform/login_manager"
@@ -189,9 +194,11 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-video-armsoc" />
 
   <project path="src/overlays"
-           name="chromiumos/overlays/board-overlays" />
+           name="chromiumos/overlays/board-overlays"
+           groups="minilayout" />
   <project path="src/common" name="chromiumos/platform/libchromeos" />
-  <project path="src/scripts" name="chromiumos/platform/crosutils" />
+  <project path="src/scripts" name="chromiumos/platform/crosutils"
+           groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
            name="chromiumos/third_party/autotest" />
@@ -232,10 +239,11 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/portage"
            name="chromiumos/overlays/portage" />
   <project path="src/third_party/portage-stable"
-           name="chromiumos/overlays/portage-stable" />
+           name="chromiumos/overlays/portage-stable"
+           groups="minilayout" />
   <project path="src/third_party/chromiumos-overlay"
-           name="chromiumos/overlays/chromiumos-overlay" >
-  </project>
+           name="chromiumos/overlays/chromiumos-overlay"
+           groups="minilayout" />
   <project path="src/third_party/modemmanager"
            name="chromiumos/third_party/modemmanager" />
   <project path="src/third_party/modemmanager-next"
