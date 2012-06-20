@@ -176,6 +176,8 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-2012.05.12" />
   <project path="src/third_party/sysbios"
            name="chromiumos/third_party/sysbios" />
+  <project path="src/third_party/tlsdate"
+           name="chromiumos/third_party/tlsdate" />
   <project path="src/third_party/wayland"
            name="chromiumos/third_party/wayland" />
   <project path="src/third_party/wayland-demos"
