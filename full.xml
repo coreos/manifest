@@ -26,6 +26,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/chaps" name="chromiumos/platform/chaps" />
   <project path="src/platform/chromiumos-assets"
            name="chromiumos/platform/chromiumos-assets" />
+  <project path="src/platform/chromiumos-wide-profiling"
+           name="chromiumos/platform/chromiumos-wide-profiling" />
   <project path="src/platform/common-mk" name="chromiumos/platform/common-mk" />
   <project path="src/platform/crash-reporter"
            name="chromiumos/platform/crash-reporter" />
