@@ -32,7 +32,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/crash-reporter"
            name="chromiumos/platform/crash-reporter" />
   <project path="src/platform/cromo" name="chromiumos/platform/cromo" />
-  <project path="src/platform/cros" name="chromiumos/platform/cros" />
   <project path="src/platform/crosh" name="chromiumos/platform/crosh" />
   <project path="src/platform/cros-disks" name="chromiumos/platform/cros-disks" />
   <project path="src/platform/cros_boot_mode"
