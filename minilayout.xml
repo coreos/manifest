@@ -7,7 +7,12 @@
            remote="cros" sync-j="8" />
 
   <notice>
-Your sources have been sync'd successfully.
+repo init -m minilayout.xml is no longer supported, nor expected to fully
+work.
+
+From the root of the checkout, run chromite/bin/loman --upgrade-minilayout .
+That will convert your existing checkout to the new minilayout workflow,
+leaving your existing workon projects enabled.
   </notice>
 
   <project path="src/repohooks" name="chromiumos/repohooks" />
