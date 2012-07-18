@@ -415,7 +415,7 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/pymox/src"
            name="external/pymox"
            revision="refs/heads/master" />
-  <project path="chromium/src/seccompsandbox"
+  <project path="chromium/src/sandbox/linux/seccomp-legacy"
            name="external/seccompsandbox"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/webdriver/pylib"
