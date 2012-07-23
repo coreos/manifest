@@ -46,6 +46,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/debugd" name="chromiumos/platform/debugd" />
   <project path="src/platform/dev" name="chromiumos/platform/dev-util"
            groups="minilayout" />
+  <project path="src/platform/drm-tests" name="chromiumos/platform/drm-tests" />
   <project path="src/platform/ec" name="chromiumos/platform/ec" />
   <project path="src/platform/factory" name="chromiumos/platform/factory" />
   <project path="src/platform/factory_installer"
