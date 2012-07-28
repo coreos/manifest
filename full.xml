@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="cros"
-           fetch="ssh://gerrit.chromium.org"
+           fetch="https://git.chromium.org/git"
            review="gerrit.chromium.org/gerrit" />
   <default revision="refs/heads/master"
            remote="cros" sync-j="8" />
