@@ -267,7 +267,7 @@ Your sources have been sync'd successfully.
 
   <project path="chromium/src"
            name="chromium/src"
-           revision="refs/heads/master" />
+           revision="refs/heads/git-svn" />
   <project path="chromium/src/chrome/test/data/perf/canvas_bench"
            name="chromium/canvas_bench"
            revision="refs/heads/master" />
