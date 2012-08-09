@@ -145,6 +145,7 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/dhcpcd"
            name="chromiumos/third_party/dhcpcd" />
   <project path="src/third_party/dtc" name="chromiumos/third_party/dtc" />
+  <project path="src/third_party/em100" name="chromiumos/third_party/em100" />
   <project path="src/third_party/flashmap"
            name="chromiumos/third_party/flashmap" />
   <project path="src/third_party/flashrom"
