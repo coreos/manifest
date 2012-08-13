@@ -428,6 +428,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/sfntly/cpp/src"
            name="external/sfntly/cpp/src"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/skia/gyp"
+           name="external/skia/gyp"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/skia/include"
            name="external/skia/include"
            revision="refs/heads/master" />
