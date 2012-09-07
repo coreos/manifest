@@ -164,6 +164,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/ktop" />
   <project path="src/third_party/leveldb"
            name="chromiumos/third_party/leveldb" />
+  <project path="src/third_party/libqmi"
+           name="chromiumos/third_party/libqmi" />
   <project path="src/third_party/libscrypt"
            name="chromiumos/third_party/libscrypt" />
   <project path="src/third_party/libc-bench"
