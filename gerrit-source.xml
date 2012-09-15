@@ -242,8 +242,6 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-v2011.12" />
   <project path="src/third_party/wpa_supplicant"
            name="chromiumos/third_party/hostap" />
-  <project path="src/third_party/portage"
-           name="chromiumos/overlays/portage" />
   <project path="src/third_party/portage-stable"
            name="chromiumos/overlays/portage-stable"
            groups="minilayout" />
