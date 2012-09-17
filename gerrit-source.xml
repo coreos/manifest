@@ -105,6 +105,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/touchbot" name="chromiumos/platform/touchbot" />
   <project path="src/platform/touchpad-tests"
            name="chromiumos/platform/touchpad-tests" />
+  <project path="src/platform/tpmd" name="chromiumos/platform/tpmd" />
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/trunks" name="chromiumos/platform/trunks" />
   <project path="src/platform/u-boot-vboot-integration"
