@@ -466,9 +466,6 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/native_client"
            name="native_client/src/native_client"
            revision="refs/heads/master" />
-  <project path="chromium/src/native_client_sdk/src/site_scons"
-           name="native_client/src/native_client/site_scons"
-           revision="refs/heads/master" />
   <project path="chromium/src/chrome/test/data/extensions/api_test/permissions/nacl_enabled/bin"
            name="native_client/src/native_client/tests/prebuilt"
            revision="refs/heads/master" />
