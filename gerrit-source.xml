@@ -245,7 +245,7 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/portage-stable"
            name="chromiumos/overlays/portage-stable"
            groups="minilayout" />
-  <project path="src/third_party/chromiumos-overlay"
+  <project path="src/third_party/chromiumos-overlay" sync-c="true"
            name="chromiumos/overlays/chromiumos-overlay"
            groups="minilayout" />
   <project path="src/third_party/modemmanager"
