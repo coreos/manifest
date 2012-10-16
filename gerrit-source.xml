@@ -353,8 +353,8 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/breakpad/src"
            name="external/google-breakpad/src"
            revision="refs/heads/master" />
-  <project path="chromium/src/third_party/cacheinvalidation/files/src/google"
-           name="external/google-cache-invalidation-api/src/google"
+  <project path="chromium/src/third_party/cacheinvalidation/src"
+           name="external/google-cache-invalidation-api/src"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/safe_browsing/testing"
            name="external/google-safe-browsing/testing"
