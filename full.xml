@@ -226,9 +226,11 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc" />
   <project path="src/third_party/glibc"
-           name="chromiumos/third_party/glibc" />
+           name="chromiumos/third_party/glibc"
+           revision="refs/heads/chromeos-2.15" />
   <project path="src/third_party/glibc-ports"
-           name="chromiumos/third_party/glibc-ports" />
+           name="chromiumos/third_party/glibc-ports"
+           revision="refs/heads/chromeos-2.15" />
   <project path="src/third_party/binutils"
            name="chromiumos/third_party/binutils" />
   <project path="src/third_party/flimflam"
