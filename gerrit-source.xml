@@ -464,7 +464,7 @@ Your sources have been sync'd successfully.
            name="external/web-page-replay"
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/webrtc"
-           name="external/webrtc/stable/src"
+           name="external/webrtc/stable/webrtc"
            revision="refs/heads/master" />
   <project path="chromium/src/native_client"
            name="native_client/src/native_client"
