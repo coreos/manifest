@@ -139,6 +139,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/chrontel" />
   <project path="src/third_party/cypress-tools"
            name="chromiumos/third_party/cypress-tools" />
+  <project path="src/third_party/daisydog"
+           name="chromiumos/third_party/daisydog"/>
   <project path="src/third_party/dbus-spy"
            name="chromiumos/third_party/dbus-spy" />
   <project path="src/third_party/dhcpcd"
