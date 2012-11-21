@@ -15,6 +15,9 @@ Your sources have been sync'd successfully.
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
+  <project path="chromite/third_party/pyelftools"
+           groups="minilayout,buildtools"
+           name="chromiumos/third_party/pyelftools" />
   <project path="src/platform/acpi" name="chromiumos/platform/acpi" />
   <project path="src/platform/assets" name="chromiumos/platform/assets" />
   <project path="src/platform/audiotest" name="chromiumos/platform/audiotest" />
