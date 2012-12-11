@@ -234,7 +234,7 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-3.4" />
   <project path="src/third_party/kernel-next"
            name="chromiumos/third_party/kernel-next"
-           revision="refs/heads/chromeos-3.4" />
+           revision="refs/heads/chromeos-3.7-rc8" />
   <project path="src/third_party/gcc"
            name="chromiumos/third_party/gcc" />
   <project path="src/third_party/glibc"
@@ -416,6 +416,9 @@ Your sources have been sync'd successfully.
            revision="refs/heads/master" />
   <project path="chromium/src/third_party/lss"
            name="external/linux-syscall-support/lss"
+           revision="refs/heads/master" />
+  <project path="chromium/src/chrome/test/data/perf/third_party/octane"
+           name="external/octane-benchmark"
            revision="refs/heads/master" />
   <project path="chromium/src/sdch/open-vcdiff"
            name="external/open-vcdiff"
