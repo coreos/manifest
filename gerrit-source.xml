@@ -360,6 +360,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/third_party/WebKit"
            name="external/WebKit_trimmed"
            revision="refs/heads/master" />
+  <project path="chromium/src/third_party/accessibility-developer-tools"
+           name="external/accessibility-developer-tools"
+           revision="refs/heads/master" />
   <project path="chromium/src/third_party/angle"
            name="external/angleproject"
            revision="refs/heads/master" />
