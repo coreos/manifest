@@ -3,4 +3,7 @@
   <remote  name="cros"
            fetch="https://git.chromium.org/git"
            review="gerrit.chromium.org/gerrit" />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/"
+           alias="cros" />
 </manifest>
