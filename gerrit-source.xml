@@ -282,6 +282,9 @@ Your sources have been sync'd successfully.
   <project path="chromium/src/chrome/test/data/perf/canvas_bench"
            name="chromium/canvas_bench"
            revision="refs/heads/master" />
+  <project path="chromium/src/webkit/media/crypto/ppapi/cdm"
+           name="chromium/cdm"
+           revision="refs/heads/master" />
   <project path="chromium/src/tools/page_cycler/acid3"
            name="chromium/deps/acid3"
            revision="refs/heads/master" />
