@@ -109,8 +109,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/tpmd" name="chromiumos/platform/tpmd" />
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/trunks" name="chromiumos/platform/trunks" />
-  <project path="src/platform/u-boot-vboot-integration"
-           name="chromiumos/platform/u-boot-vboot-integration" />
   <project path="src/platform/uboot-env" name="chromiumos/platform/uboot-env" />
   <project path="src/platform/update_engine"
            name="chromiumos/platform/update_engine" />
