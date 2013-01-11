@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="cros"
+           fetch="https://chromiumos.googlesource.com/"
+           review="chromiumos-review.googlesource.com" />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/"
+           alias="cros" />
+  <default revision="refs/heads/master"
+           remote="cros" sync-j="8" />
+  <notice>
+This is a manifest purely for testing; do not use it.
+  </notice>
+
+  <project path="src/repohooks" name="repohooks"
+           groups="minilayout" />
+  <repo-hooks in-project="repohooks" enabled-list="pre-upload" />
+
+  <project path="chromite" name="chromite" groups="minilayout" >
+    <copyfile src="AUTHORS" dest="AUTHORS" />
+    <copyfile src="LICENSE" dest="LICENSE" />
+  </project>
+  <project path="chromite/third_party/pyelftools"
+           groups="minilayout,buildtools"
+           name="third_party/pyelftools" />
+  <project path="src/platform/acpi" name="platform/acpi" />
+  <project path="src/platform/assets" name="platform/assets" />
+  <project path="src/platform/audiotest" name="platform/audiotest" />
+  <project path="src/platform/autox" name="platform/autox" />
+  <project path="src/platform/bootcache" name="platform/bootcache" />
+  <project path="src/platform/bootstat" name="platform/bootstat" />
+  <project path="src/platform/chaps" name="platform/chaps" />
+  <project path="src/platform/chromiumos-assets"
+           name="platform/chromiumos-assets" />
+  <project path="src/platform/chromiumos-wide-profiling"
+           name="platform/chromiumos-wide-profiling" />
+  <project path="src/platform/common-mk" name="platform/common-mk" />
+  <project path="src/platform/crash-reporter"
+           name="platform/crash-reporter" />
+  <project path="src/platform/cromo" name="platform/cromo" />
+  <project path="src/platform/crosh" name="platform/crosh" />
+  <project path="src/platform/cros-disks" name="platform/cros-disks" />
+  <project path="src/platform/cros_boot_mode"
+           name="platform/cros_boot_mode" />
+  <project path="src/platform/crostestutils"
+           name="platform/crostestutils"
+           groups="minilayout" />
+  <project path="src/platform/cryptohome"
+           name="platform/cryptohome" />
+  <project path="src/platform/dbusfuzz" name="platform/dbusfuzz" />
+  <project path="src/platform/debugd" name="platform/debugd" />
+  <project path="src/platform/dev" name="platform/dev-util"
+           groups="minilayout" />
+  <project path="src/platform/drm-tests" name="platform/drm-tests" />
+  <project path="src/platform/ec" name="platform/ec" />
+  <project path="src/platform/factory" name="platform/factory" />
+  <project path="src/platform/factory_installer"
+           name="platform/factory_installer" />
+  <project path="src/platform/factory_test_init"
+           name="platform/factory_test_init" />
+  <project path="src/platform/factory-utils"
+           name="platform/factory-utils"
+           groups="minilayout" />
+  <project path="src/platform/firmware" name="platform/firmware" />
+  <project path="src/platform/gestures"
+           name="platform/gestures" />
+  <project path="src/platform/gobi-cromo-plugin"
+           name="platform/gobi-cromo-plugin" />
+  <project path="src/platform/google-breakpad"
+           name="platform/google-breakpad" />
+  <project path="src/platform/image-burner"
+           name="platform/image-burner" />
+  <project path="src/platform/init" name="platform/init" />
+  <project path="src/platform/initramfs" name="platform/initramfs" />
+  <project path="src/platform/inputcontrol" name="platform/inputcontrol" />
+  <project path="src/platform/installer" name="platform/installer"
+           groups="minilayout" />
+  <project path="src/platform/libevdev" name="platform/libevdev" />
+  <project path="src/platform/login_manager"
+           name="platform/login_manager" />
+  <project path="src/platform/memento_softwareupdate"
+           name="platform/memento_softwareupdate" />
+  <project path="src/platform/metrics" name="platform/metrics" />
+  <project path="src/platform/microbenchmark"
+           name="platform/microbenchmark" />
+  <project path="src/platform/minijail" name="platform/minijail" />
+  <project path="src/platform/modem-utilities"
+           name="platform/modem-utilities" />
+  <project path="src/platform/monitor_reconfig"
+           name="platform/monitor_reconfig" />
+  <project path="src/platform/mosys" name="platform/mosys" />
+  <project path="src/platform/mtpd" name="platform/mtpd" />
+  <project path="src/platform/mtplot" name="platform/mtplot" />
+  <project path="src/platform/permission_broker"
+           name="platform/permission_broker" />
+  <project path="src/platform/power_manager"
+           name="platform/power_manager" />
+  <project path="src/platform/punybench"
+           name="platform/punybench" />
+  <project path="src/platform/rollog" name="platform/rollog" />
+  <project path="src/platform/saft" name="platform/saft" />
+  <project path="src/platform/shill" name="platform/shill" />
+  <project path="src/platform/smogcheck" name="platform/smogcheck" />
+  <project path="src/platform/speech_synthesis"
+           name="platform/speech_synthesis" />
+  <project path="src/platform/spigots"
+           name="platform/spigots" />
+  <project path="src/platform/system_api"
+           name="platform/system_api" />
+  <project path="src/platform/theme" name="platform/theme" />
+  <project path="src/platform/touchbot" name="platform/touchbot" />
+  <project path="src/platform/touchpad-tests"
+           name="platform/touchpad-tests" />
+  <project path="src/platform/tpmd" name="platform/tpmd" />
+  <project path="src/platform/tpm_lite" name="platform/tpm_lite" />
+  <project path="src/platform/trunks" name="platform/trunks" />
+  <project path="src/platform/uboot-env" name="platform/uboot-env" />
+  <project path="src/platform/update_engine"
+           name="platform/update_engine" />
+  <project path="src/platform/userfeedback"
+           name="platform/userfeedback" />
+  <project path="src/platform/verity" name="platform/dm-verity" />
+  <project path="src/platform/vboot_reference"
+           name="platform/vboot_reference" />
+  <project path="src/platform/vpd" name="platform/vpd" />
+  <project path="src/platform/vpn-manager"
+           name="platform/vpn-manager" />
+  <project path="src/platform/wimax_manager"
+           name="platform/wimax_manager" />
+  <project path="src/platform/workarounds"
+           name="platform/workarounds" />
+  <project path="src/platform/xf86-input-cmt"
+           name="platform/xf86-input-cmt" />
+  <project path="src/platform/xnu_quick_test"
+           name="platform/xnu_quick_test" />
+  <project path="src/third_party/adhd"
+           name="third_party/adhd"/>
+  <project path="src/third_party/atheros"
+           name="third_party/atheros" />
+  <project path="src/third_party/bootstub"
+           name="third_party/bootstub" />
+  <project path="src/third_party/cbootimage"
+           name="third_party/cbootimage" />
+  <project path="src/third_party/chrontel"
+           name="third_party/chrontel" />
+  <project path="src/third_party/cypress-tools"
+           name="third_party/cypress-tools" />
+  <project path="src/third_party/daisydog"
+           name="third_party/daisydog"/>
+  <project path="src/third_party/dbus-spy"
+           name="third_party/dbus-spy" />
+  <project path="src/third_party/dhcpcd"
+           name="third_party/dhcpcd" />
+  <project path="src/third_party/dtc" name="third_party/dtc" />
+  <project path="src/third_party/em100" name="third_party/em100" />
+  <project path="src/third_party/flashmap"
+           name="third_party/flashmap" />
+  <project path="src/third_party/flashrom"
+           name="third_party/flashrom" />
+  <project path="src/third_party/gdmwimax"
+           name="third_party/gdmwimax" />
+  <project path="src/third_party/glmark2"
+           name="third_party/glmark2" />
+  <project path="src/third_party/gobi3k-sdk"
+           name="third_party/gobi3k-sdk" />
+  <project path="src/third_party/hdctools"
+           name="third_party/hdctools" />
+  <project path="src/third_party/khronos"
+           name="third_party/khronos" />
+  <project path="src/third_party/ktop"
+           name="third_party/ktop" />
+  <project path="src/third_party/leveldb"
+           name="third_party/leveldb" />
+  <project path="src/third_party/libqmi"
+           name="third_party/libqmi" />
+  <project path="src/third_party/libscrypt"
+           name="third_party/libscrypt" />
+  <project path="src/third_party/libc-bench"
+           name="third_party/libc-bench" />
+  <project path="src/third_party/marvell"
+           name="third_party/marvell" />
+  <project path="src/third_party/memtest"
+           name="third_party/memtest" />
+  <project path="src/third_party/mesa"
+           name="third_party/mesa" />
+  <project path="src/third_party/miniFakeDns"
+           name="third_party/minifakedns" />
+  <project path="src/third_party/opencryptoki"
+           name="third_party/opencryptoki" />
+  <project path="src/third_party/openssl"
+           name="third_party/openssl" />
+  <project path="src/third_party/ply-image"
+           name="third_party/ply-image" />
+  <project path="src/third_party/seabios"
+           name="third_party/seabios"
+           revision="refs/heads/chromeos-2012.05.12" />
+  <project path="src/third_party/sysbios"
+           name="third_party/sysbios" />
+  <project path="src/third_party/tlsdate"
+           name="third_party/tlsdate"
+           revision="refs/heads/upstream" />
+  <project path="src/third_party/wayland"
+           name="third_party/wayland" />
+  <project path="src/third_party/wayland-demos"
+           name="third_party/wayland-demos" />
+  <project path="src/third_party/xf86-video-armsoc"
+           name="third_party/xf86-video-armsoc" />
+
+  <project path="src/overlays"
+           name="overlays/board-overlays"
+           groups="minilayout" />
+  <project path="src/common" name="platform/libchromeos" />
+  <project path="src/scripts" name="platform/crosutils"
+           groups="minilayout" />
+
+  <project path="src/third_party/autotest/files"
+           name="third_party/autotest" />
+  <project path="src/third_party/ibus-chewing/files"
+           name="third_party/ibus-chewing" />
+  <project path="src/third_party/ibus-xkb-layouts/files"
+           name="third_party/ibus-xkb-layouts" />
+  <project path="src/third_party/ltp"
+           name="third_party/ltp"
+           revision="refs/heads/chromeos-20120903" />
+  <project path="src/third_party/tegra-power-query"
+           name="third_party/tegra-power-query" />
+  <project path="src/third_party/tegrastats"
+           name="third_party/tegrastats" />
+  <project path="src/third_party/tpm" name="platform/tpm" />
+  <project path="src/third_party/tpm-emulator"
+           name="third_party/tpm-emulator" />
+  <project path="src/third_party/trousers"
+           name="third_party/trousers" />
+  <project path="src/third_party/kernel/files"
+           name="third_party/kernel"
+           revision="refs/heads/chromeos-3.4" />
+  <project path="src/third_party/kernel-next"
+           name="third_party/kernel-next"
+           revision="refs/heads/chromeos-3.7-rc8" />
+  <project path="src/third_party/gcc"
+           name="third_party/gcc" />
+  <project path="src/third_party/glibc"
+           name="third_party/glibc"
+           revision="refs/heads/chromeos-2.15" />
+  <project path="src/third_party/glibc-ports"
+           name="third_party/glibc-ports"
+           revision="refs/heads/chromeos-2.15" />
+  <project path="src/third_party/binutils"
+           name="third_party/binutils" />
+  <project path="src/third_party/flimflam"
+           name="platform/flimflam" />
+  <project path="src/third_party/u-boot/files"
+           name="third_party/u-boot"
+           revision="refs/heads/chromeos-v2011.12" />
+  <project path="src/third_party/wpa_supplicant"
+           name="third_party/hostap" />
+  <project path="src/third_party/portage-stable"
+           name="overlays/portage-stable"
+           groups="minilayout" />
+  <project path="src/third_party/chromiumos-overlay" sync-c="true"
+           name="overlays/chromiumos-overlay"
+           groups="minilayout" />
+  <project path="src/third_party/modemmanager"
+           name="third_party/modemmanager" />
+  <project path="src/third_party/modemmanager-next"
+           name="third_party/modemmanager-next" />
+  <project path="src/third_party/libresample"
+           name="third_party/libresample" />
+  <project path="src/third_party/rootdev"
+           name="third_party/rootdev" />
+  <project path="src/third_party/grub2" name="third_party/grub2" />
+  <project path="src/third_party/dbus-c++"
+           name="third_party/dbus-cplusplus" />
+  <project path="src/third_party/mobile-broadband-provider-info"
+           name="third_party/mobile-broadband-provider-info" />
+
+<!-- @@@@ BEGIN AUTOGENERATED BROWSER PROJECTS - DON'T MODIFY! @@@@ -->
+  <!-- DO NOT REMOVE THIS SECTION! -->
+  <project path="chromium/src/third_party/libmtp"
+           name="chromium/deps/libmtp"
+           revision="refs/heads/master" remote="chromium" />
+<!-- @@@@ END AUTOGENERATED BROWSER PROJECTS - DON'T MODIFY! @@@@ -->
+
+</manifest>
