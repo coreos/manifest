@@ -192,8 +192,7 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/sysbios"
            name="chromiumos/third_party/sysbios" />
   <project path="src/third_party/tlsdate"
-           name="chromiumos/third_party/tlsdate"
-           revision="refs/heads/upstream" />
+           name="chromiumos/third_party/tlsdate" />
   <project path="src/third_party/wayland"
            name="chromiumos/third_party/wayland" />
   <project path="src/third_party/wayland-demos"
