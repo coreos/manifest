@@ -70,6 +70,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/inputcontrol" name="chromiumos/platform/inputcontrol" />
   <project path="src/platform/installer" name="chromiumos/platform/installer"
            groups="minilayout" />
+  <project path="src/platform/libchromeos" name="chromiumos/platform/libchromeos" />
   <project path="src/platform/libevdev" name="chromiumos/platform/libevdev" />
   <project path="src/platform/login_manager"
            name="chromiumos/platform/login_manager" />
@@ -205,7 +206,6 @@ Your sources have been sync'd successfully.
   <project path="src/overlays"
            name="chromiumos/overlays/board-overlays"
            groups="minilayout" />
-  <project path="src/common" name="chromiumos/platform/libchromeos" />
   <project path="src/scripts" name="chromiumos/platform/crosutils"
            groups="minilayout" />
 

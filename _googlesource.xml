@@ -75,6 +75,7 @@ This is a manifest purely for testing; do not use it.
   <project path="src/platform/inputcontrol" name="platform/inputcontrol" />
   <project path="src/platform/installer" name="platform/installer"
            groups="minilayout" />
+  <project path="src/platform/libchromeos" name="platform/libchromeos" />
   <project path="src/platform/libevdev" name="platform/libevdev" />
   <project path="src/platform/login_manager"
            name="platform/login_manager" />
@@ -209,7 +210,6 @@ This is a manifest purely for testing; do not use it.
   <project path="src/overlays"
            name="overlays/board-overlays"
            groups="minilayout" />
-  <project path="src/common" name="platform/libchromeos" />
   <project path="src/scripts" name="platform/crosutils"
            groups="minilayout" />
 
