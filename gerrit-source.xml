@@ -124,7 +124,7 @@
            revision="refs/heads/master" />
   <project remote="chromium"
            path="chromium/src/third_party/angle"
-           name="external/angleproject"
+           name="external/angleproject/dx11proto"
            revision="refs/heads/master" />
   <project remote="chromium"
            path="chromium/src/third_party/bidichecker"
