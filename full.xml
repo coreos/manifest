@@ -87,6 +87,7 @@ Your sources have been sync'd successfully.
   <project path="src/platform/mosys" name="chromiumos/platform/mosys" />
   <project path="src/platform/mtpd" name="chromiumos/platform/mtpd" />
   <project path="src/platform/mtplot" name="chromiumos/platform/mtplot" />
+  <project path="src/platform/mttools" name="chromiumos/platform/mttools" />
   <project path="src/platform/permission_broker"
            name="chromiumos/platform/permission_broker" />
   <project path="src/platform/power_manager"
