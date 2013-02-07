@@ -103,6 +103,8 @@ Your sources have been sync'd successfully.
   <project path="src/platform/system_api"
            name="chromiumos/platform/system_api" />
   <project path="src/platform/theme" name="chromiumos/platform/theme" />
+  <project path="src/platform/touch_noise_filter"
+           name="chromiumos/platform/touch_noise_filter" />
   <project path="src/platform/touchbot" name="chromiumos/platform/touchbot" />
   <project path="src/platform/touchpad-tests"
            name="chromiumos/platform/touchpad-tests" />
