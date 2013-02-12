@@ -207,7 +207,14 @@ Your sources have been sync'd successfully.
   <project path="src/overlays"
            name="chromiumos/overlays/board-overlays"
            groups="minilayout" />
-  <project path="src/scripts" name="chromiumos/platform/crosutils"
+  <project path="src/scripts" name="coreos/scripts"
+            remote="coreos" groups="minilayout" />
+
+  <project path="src/third_party/portage-stable"
+           name="coreos/portage-stable" remote="coreos"
+           groups="minilayout" />
+  <project path="src/third_party/coreos-overlay"
+           name="coreos/coreos-overlay" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
@@ -251,9 +258,6 @@ Your sources have been sync'd successfully.
            revision="refs/heads/chromeos-v2011.12" />
   <project path="src/third_party/wpa_supplicant"
            name="chromiumos/third_party/hostap" />
-  <project path="src/third_party/portage-stable"
-           name="chromiumos/overlays/portage-stable"
-           groups="minilayout" />
   <project path="src/third_party/chromiumos-overlay" sync-c="true"
            name="chromiumos/overlays/chromiumos-overlay"
            groups="minilayout" />
