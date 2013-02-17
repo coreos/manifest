@@ -11,7 +11,8 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="chromiumos/chromite" groups="minilayout" >
+  <project path="chromite" name="coreos/chromite" groups="minilayout"
+           remote="coreos"  >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -205,8 +206,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-video-armsoc" />
 
   <project path="src/overlays"
-           name="chromiumos/overlays/board-overlays"
-           groups="minilayout" />
+           name="coreos/board-overlays"
+           remote="coreos" groups="minilayout" />
   <project path="src/scripts" name="coreos/scripts"
             remote="coreos" groups="minilayout" />
 
