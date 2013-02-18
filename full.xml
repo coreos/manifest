@@ -221,6 +221,9 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/systemd-rest"
            name="coreos/systemd-rest" />
 
+  <project path="src/third_party/motd-http"
+           name="coreos/motd-http" />
+
   <project path="src/third_party/autotest/files"
            name="chromiumos/third_party/autotest" />
   <project path="src/third_party/ibus-chewing/files"
