@@ -11,8 +11,8 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="coreos/chromite" groups="minilayout"
-           remote="coreos"  >
+  <project path="chromite" name="falcoreos/chromite" groups="minilayout"
+           remote="falcoreos"  >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -206,23 +206,25 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-video-armsoc" />
 
   <project path="src/overlays"
-           name="coreos/board-overlays"
-           remote="coreos" groups="minilayout" />
-  <project path="src/scripts" name="coreos/scripts"
-            remote="coreos" groups="minilayout" />
+           name="falcoreos/board-overlays"
+           remote="falcoreos" groups="minilayout" />
+  <project path="src/scripts" name="falcoreos/scripts"
+            remote="falcoreos" groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="coreos/portage-stable" remote="coreos"
+           name="falcoreos/portage-stable" remote="falcoreos"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay" remote="coreos"
+           name="falcoreos/coreos-overlay" remote="falcoreos"
            groups="minilayout" />
 
   <project path="src/third_party/systemd-rest"
-           name="coreos/systemd-rest" />
+           name="falcoreos/systemd-rest" remote="falcoreos"
+           groups="minilayout" />
 
   <project path="src/third_party/motd-http"
-           name="coreos/motd-http" />
+           name="falcoreos/motd-http" remote="falcoreos"
+           groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
            name="chromiumos/third_party/autotest" />
