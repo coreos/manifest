@@ -7,6 +7,6 @@
            fetch="https://chromium.googlesource.com/"
            alias="cros" />
   <remote  name="falcoreos"
-           fetch="ssh://git@bitbucket.org"
+           fetch="ssh://git@github.com"
            alias="falcoreos" />
 </manifest>
