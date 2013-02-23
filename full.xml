@@ -222,6 +222,10 @@ Your sources have been sync'd successfully.
            name="falcoreos/systemd-rest" remote="falcoreos"
            groups="minilayout" />
 
+  <project path="src/third_party/efunctions"
+           name="falcoreos/efunctions" remote="falcoreos"
+           groups="minilayout" />
+
   <project path="src/third_party/motd-http"
            name="falcoreos/motd-http" remote="falcoreos"
            groups="minilayout" />
