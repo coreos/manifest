@@ -11,8 +11,8 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="falcoreos/chromite" groups="minilayout"
-           remote="falcoreos"  >
+  <project path="chromite" name="core-os/chromite" groups="minilayout"
+           remote="core-os"  >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -206,28 +206,28 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-video-armsoc" />
 
   <project path="src/overlays"
-           name="falcoreos/board-overlays"
-           remote="falcoreos" groups="minilayout" />
-  <project path="src/scripts" name="falcoreos/scripts"
-            remote="falcoreos" groups="minilayout" />
+           name="core-os/board-overlays"
+           remote="core-os" groups="minilayout" />
+  <project path="src/scripts" name="core-os/scripts"
+            remote="core-os" groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="falcoreos/portage-stable" remote="falcoreos"
+           name="core-os/portage-stable" remote="core-os"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="falcoreos/coreos-overlay" remote="falcoreos"
+           name="core-os/coreos-overlay" remote="core-os"
            groups="minilayout" />
 
   <project path="src/third_party/systemd-rest"
-           name="falcoreos/systemd-rest" remote="falcoreos"
+           name="core-os/systemd-rest" remote="core-os"
            groups="minilayout" />
 
   <project path="src/third_party/efunctions"
-           name="falcoreos/efunctions" remote="falcoreos"
+           name="core-os/efunctions" remote="core-os"
            groups="minilayout" />
 
   <project path="src/third_party/motd-http"
-           name="falcoreos/motd-http" remote="falcoreos"
+           name="core-os/motd-http" remote="core-os"
            groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
