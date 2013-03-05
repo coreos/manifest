@@ -6,7 +6,7 @@
   <remote  name="chromium"
            fetch="https://chromium.googlesource.com/"
            alias="cros" />
-  <remote  name="core-os"
+  <remote  name="coreos"
            fetch="https://github.com/"
-           alias="core-os" />
+           alias="coreos" />
 </manifest>

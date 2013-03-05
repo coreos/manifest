@@ -11,8 +11,8 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
   <repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload" />
 
-  <project path="chromite" name="core-os/chromite" groups="minilayout"
-           remote="core-os"  >
+  <project path="chromite" name="coreos/chromite" groups="minilayout"
+           remote="coreos"  >
     <copyfile src="AUTHORS" dest="AUTHORS" />
     <copyfile src="LICENSE" dest="LICENSE" />
   </project>
@@ -206,28 +206,28 @@ Your sources have been sync'd successfully.
            name="chromiumos/third_party/xf86-video-armsoc" />
 
   <project path="src/overlays"
-           name="core-os/board-overlays"
-           remote="core-os" groups="minilayout" />
-  <project path="src/scripts" name="core-os/scripts"
-            remote="core-os" groups="minilayout" />
+           name="coreos/board-overlays"
+           remote="coreos" groups="minilayout" />
+  <project path="src/scripts" name="coreos/scripts"
+            remote="coreos" groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="core-os/portage-stable" remote="core-os"
+           name="coreos/portage-stable" remote="coreos"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="core-os/coreos-overlay" remote="core-os"
+           name="coreos/coreos-overlay" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/systemd-rest"
-           name="core-os/systemd-rest" remote="core-os"
+           name="coreos/systemd-rest" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/efunctions"
-           name="core-os/efunctions" remote="core-os"
+           name="coreos/efunctions" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/motd-http"
-           name="core-os/motd-http" remote="core-os"
+           name="coreos/motd-http" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
