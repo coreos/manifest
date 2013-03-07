@@ -224,7 +224,7 @@ Your sources have been sync'd successfully.
            name="coreos/efunctions" remote="coreos"
            groups="minilayout" />
 
-  <project path="src/platform/update_engine"
+  <project path="src/third_party/update_engine"
            name="coreos/update_engine" remote="coreos"
            groups="minilayout" />
 
