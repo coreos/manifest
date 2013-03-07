@@ -115,8 +115,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/tpm_lite" name="chromiumos/platform/tpm_lite" />
   <project path="src/platform/trunks" name="chromiumos/platform/trunks" />
   <project path="src/platform/uboot-env" name="chromiumos/platform/uboot-env" />
-  <project path="src/platform/update_engine"
-           name="chromiumos/platform/update_engine" />
   <project path="src/platform/userfeedback"
            name="chromiumos/platform/userfeedback" />
   <project path="src/platform/verity" name="chromiumos/platform/dm-verity" />
@@ -224,6 +222,10 @@ Your sources have been sync'd successfully.
 
   <project path="src/third_party/efunctions"
            name="coreos/efunctions" remote="coreos"
+           groups="minilayout" />
+
+  <project path="src/platform/update_engine"
+           name="coreos/update_engine" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/motd-http"
