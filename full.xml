@@ -216,6 +216,10 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-overlay" remote="coreos"
            groups="minilayout" />
 
+  <project path="src/third_party/dbus-c++"
+           name="coreos/dbus-cplusplus" remote="coreos"
+           groups="minilayout" />
+
   <project path="src/third_party/systemd-rest"
            name="coreos/systemd-rest" remote="coreos"
            groups="minilayout" />
@@ -285,8 +289,6 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/rootdev"
            name="chromiumos/third_party/rootdev" />
   <project path="src/third_party/grub2" name="chromiumos/third_party/grub2" />
-  <project path="src/third_party/dbus-c++"
-           name="chromiumos/third_party/dbus-cplusplus" />
   <project path="src/third_party/mobile-broadband-provider-info"
            name="chromiumos/third_party/mobile-broadband-provider-info" />
 
