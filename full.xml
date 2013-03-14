@@ -45,8 +45,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/cryptohome" />
   <project path="src/platform/dbusfuzz" name="chromiumos/platform/dbusfuzz" />
   <project path="src/platform/debugd" name="chromiumos/platform/debugd" />
-  <project path="src/platform/dev" name="chromiumos/platform/dev-util"
-           groups="minilayout" />
   <project path="src/platform/drm-tests" name="chromiumos/platform/drm-tests" />
   <project path="src/platform/ec" name="chromiumos/platform/ec" />
   <project path="src/platform/factory" name="chromiumos/platform/factory" />
@@ -234,6 +232,10 @@ Your sources have been sync'd successfully.
 
   <project path="src/third_party/motd-http"
            name="coreos/motd-http" remote="coreos"
+           groups="minilayout" />
+
+  <project path="src/platform/dev"
+           name="coreos/dev-util" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
