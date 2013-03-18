@@ -237,7 +237,7 @@ Your sources have been sync'd successfully.
            name="coreos/dev-util" remote="coreos"
            groups="minilayout" />
 
-  <project path="src/platform/init"
+  <project path="src/third_party/init"
            name="coreos/init"  remote="coreos"
            groups="minilayout" />
 
