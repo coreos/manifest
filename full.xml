@@ -64,7 +64,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/google-breakpad" />
   <project path="src/platform/image-burner"
            name="chromiumos/platform/image-burner" />
-  <project path="src/platform/init" name="chromiumos/platform/init" />
   <project path="src/platform/initramfs" name="chromiumos/platform/initramfs" />
   <project path="src/platform/inputcontrol" name="chromiumos/platform/inputcontrol" />
   <project path="src/platform/installer" name="chromiumos/platform/installer"
@@ -236,6 +235,10 @@ Your sources have been sync'd successfully.
 
   <project path="src/platform/dev"
            name="coreos/dev-util" remote="coreos"
+           groups="minilayout" />
+
+  <project path="src/platform/init"
+           name="coreos/init"  remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
