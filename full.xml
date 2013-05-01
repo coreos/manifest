@@ -231,6 +231,10 @@ Your sources have been sync'd successfully.
            name="coreos/motd-http" remote="coreos"
            groups="minilayout" />
 
+  <project path="src/third_party/core-admin"
+           name="coreos/core-admin" remote="coreos"
+           groups="minilayout" />
+
   <project path="src/platform/dev"
            name="coreos/dev-util" remote="coreos"
            groups="minilayout" />
