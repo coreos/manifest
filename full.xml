@@ -247,6 +247,13 @@ Your sources have been sync'd successfully.
            name="coreos/installer" remote="coreos"
            groups="minilayout" />
 
+  <project path="src/third_party/etcd"
+           name="coreos/etcd" remote="coreos"
+           groups="minilayout" />
+
+  <project path="src/third_party/etcd-client"
+           name="coreos/etcd-client" remote="coreos"
+           groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
            name="chromiumos/third_party/autotest" />
