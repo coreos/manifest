@@ -113,8 +113,6 @@ Your sources have been sync'd successfully.
   <project path="src/platform/userfeedback"
            name="chromiumos/platform/userfeedback" />
   <project path="src/platform/verity" name="chromiumos/platform/dm-verity" />
-  <project path="src/platform/vboot_reference"
-           name="chromiumos/platform/vboot_reference" />
   <project path="src/platform/vpd" name="chromiumos/platform/vpd" />
   <project path="src/platform/vpn-manager"
            name="chromiumos/platform/vpn-manager" />
@@ -253,6 +251,10 @@ Your sources have been sync'd successfully.
 
   <project path="src/third_party/etcd-client"
            name="coreos/etcd-client" remote="coreos"
+           groups="minilayout" />
+
+  <project path="src/platform/vboot_reference"
+           name="coreos/vboot_reference" remote="coreos"
            groups="minilayout" />
 
   <project path="src/third_party/autotest/files"
