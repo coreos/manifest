@@ -7,6 +7,7 @@
            fetch="https://chromium.googlesource.com/"
            alias="cros" />
   <remote  name="coreos"
-           fetch="https://github.com/"
-           alias="coreos" />
+           fetch=".." />
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 </manifest>
