@@ -2,7 +2,9 @@
 <manifest>
   <include name="_remotes.xml" />
   <default revision="refs/heads/master"
-           remote="coreos" sync-j="8" />
+           remote="coreos"
+           sync-c="true"
+           sync-j="4" />
   <notice>
 Your sources have been sync'd successfully.
   </notice>
