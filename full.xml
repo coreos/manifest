@@ -76,14 +76,6 @@ Your sources have been sync'd successfully.
            name="coreos/installer"
            groups="minilayout" />
 
-  <project path="src/third_party/etcd"
-           name="coreos/etcd"
-           groups="minilayout" />
-
-  <project path="src/third_party/etcd-client"
-           name="coreos/etcd-client"
-           groups="minilayout" />
-
   <project path="src/platform/vboot_reference"
            name="coreos/vboot_reference"
            groups="minilayout" />
