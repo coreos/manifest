@@ -72,6 +72,10 @@ Your sources have been sync'd successfully.
            name="coreos/init"
            groups="minilayout" />
 
+  <project path="src/third_party/bootengine"
+           name="coreos/bootengine"
+           groups="minilayout" />
+
   <project path="src/platform/installer"
            name="coreos/installer"
            groups="minilayout" />
