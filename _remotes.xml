@@ -6,7 +6,7 @@
   <remote  name="chromium"
            fetch="https://chromium.googlesource.com/"
            alias="cros" />
-  <remote  name="coreos"
+  <remote  name="github"
            fetch=".." />
   <remote  name="private"
            fetch="ssh://git@github.com" />

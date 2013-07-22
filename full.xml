@@ -2,7 +2,7 @@
 <manifest>
   <include name="_remotes.xml" />
   <default revision="refs/heads/master"
-           remote="coreos"
+           remote="github"
            sync-c="true"
            sync-j="4" />
   <notice>
