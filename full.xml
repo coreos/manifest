@@ -84,4 +84,8 @@ Your sources have been sync'd successfully.
            name="coreos/vboot_reference"
            groups="minilayout" />
 
+  <project path="src/third_party/linux"
+           name="coreos/linux"
+           revision="coreos/master" />
+
 </manifest>
