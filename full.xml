@@ -2,7 +2,7 @@
 <manifest>
   <include name="_remotes.xml" />
   <default revision="refs/heads/master"
-           remote="coreos"
+           remote="github"
            sync-c="true"
            sync-j="4" />
   <notice>
@@ -83,5 +83,9 @@ Your sources have been sync'd successfully.
   <project path="src/platform/vboot_reference"
            name="coreos/vboot_reference"
            groups="minilayout" />
+
+  <project path="src/third_party/linux"
+           name="coreos/linux"
+           revision="coreos/master" />
 
 </manifest>
