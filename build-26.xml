@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://git.chromium.org/git" name="cros" review="gerrit.chromium.org/gerrit"/>
+  <remote fetch=".." name="github"/>
+  <remote fetch="ssh://git@github.com" name="private"/>
+  
+  <default remote="github" revision="refs/heads/master" sync-c="true" sync-j="4"/>
+  
+  <project groups="minilayout" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" remote="cros" revision="da7b3625a91fe2e81e8d0a556d41604e9f00fcb6" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" remote="cros" revision="c759366a1dd3d733b12bb2edc3bae9868d38ee5b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="42b8a05d633b69d3d134ca1bfa57bda1d8d612ec" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/board-overlays" path="src/overlays" revision="c2058ff8236f4ec81e2369eda58f1742b423adb4" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="f9bf64ea22a56558849bcb98e2572e87bed90aa6" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/chromite" path="chromite" revision="58af01ea8813b78d309d115202e3935e9b2af42e" upstream="refs/heads/master">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project groups="minilayout" name="coreos/core-admin" path="src/third_party/core-admin" revision="52e920594bfa33fe72da93242556f56ab39a261d" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="64f3bb7fa359ac6b66f6a8b5bb12dc9cd3781e28" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="dd3e01c3a35bd810550619bea42544236a70e1a6" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ff4e85359841b20feabb0304236cd7a737384724" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="fac8d662445b2c09e3f24c282c2b37754bc7357f" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="1abae8e976257c46246636a106a0d4cc671dd2ce" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="a33f4b9f1c4bef39b9f307f64e18fa5e8bf35614" upstream="refs/heads/master"/>
+  <project name="coreos/linux" path="src/third_party/linux" revision="60757f78d6dbd86e935b4de43d61547174228cb7" upstream="coreos/master"/>
+  <project groups="minilayout" name="coreos/motd-http" path="src/third_party/motd-http" revision="2d0bc2c2e46f966f056af9203d5ab9f1aab119f9" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="232713026f77054b1e72c993fb72f444fa100032" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="17736820bd780abcd76e1ea5cbcb5b7f19fdf6b7" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/systemd-rest" path="src/third_party/systemd-rest" revision="1cbd0a6a5de82a36b5ca9117297d8e152a133e4f" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="ad292a3694dcc21960d0ff97358b3e3315d12120" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/vboot_reference" path="src/platform/vboot_reference" revision="c0d9003ab84c08b0fe164d50d1caa41dcb576e9c" upstream="refs/heads/master"/>
+  
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
