@@ -3,7 +3,6 @@
   <include name="_remotes.xml" />
   <default revision="refs/heads/master"
            remote="github"
-           sync-c="true"
            sync-j="4" />
   <notice>
 Your sources have been sync'd successfully.
