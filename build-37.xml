@@ -30,7 +30,7 @@
   <project name="coreos/linux" path="src/third_party/linux" revision="60757f78d6dbd86e935b4de43d61547174228cb7" upstream="coreos/master"/>
   <project groups="minilayout" name="coreos/motd-http" path="src/third_party/motd-http" revision="682bca6faf9c879034349e9be0eb72254a932b65" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="b7c995b2865107ae10cfd051895b56a7e449e22a" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="f871c34186b3933231b3a9c77435196b6638fc84" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="a0f383e3fe679c933e6ce9141aa01abbe1c5149d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/systemd-rest" path="src/third_party/systemd-rest" revision="1cbd0a6a5de82a36b5ca9117297d8e152a133e4f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="ad292a3694dcc21960d0ff97358b3e3315d12120" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/vboot_reference" path="src/platform/vboot_reference" revision="c0d9003ab84c08b0fe164d50d1caa41dcb576e9c" upstream="refs/heads/master"/>
