@@ -93,6 +93,7 @@ Your sources have been sync'd successfully.
 
   <project path="src/third_party/linux"
            name="coreos/linux"
+           groups="minilayout"
            revision="coreos/master" />
 
   <project path="src/third_party/coreos-buildbot"
