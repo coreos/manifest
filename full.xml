@@ -100,4 +100,8 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-buildbot"
            groups="minilayout" />
 
+  <project path="src/third_party/coreos-autotest"
+           name="coreos/coreos-autotest"
+           groups="minilayout" />
+
 </manifest>
