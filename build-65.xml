@@ -19,14 +19,14 @@
   </project>
   <project groups="minilayout" name="coreos/core-admin" path="src/third_party/core-admin" revision="3510d97022a532f391a1692f2d390b1c589531ad" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="0826181fe255ee81ad939b58fec9c3b52fa4366a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="ab86edd4bf446753ccf2cd1693854d6e2d8d1c8e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="e4a8c87fabfb33ab735da0c84edb4990e69fe921" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ff4e85359841b20feabb0304236cd7a737384724" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="dee496b5ae58efcb3ba4e4ed0e1f202869d69088" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="ed4c30a33738da65294c6a923f32bf31648dc5be" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="f98f0ded04182ed95c93ebacde6c7793cbe0be17" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="62346d91d16440bfab1f105bb7c017fa97f72fc2" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="50aff8f6168510774f6fcc6a3eaf702bf10a4bfb" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="77d6702c7e829c7512602f0f31b00de911e4e034" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/linux" path="src/third_party/linux" revision="a50da2c50fe120e7ff58019f791c679ac5e8ac29" upstream="coreos/master"/>
   <project groups="minilayout" name="coreos/motd-http" path="src/third_party/motd-http" revision="682bca6faf9c879034349e9be0eb72254a932b65" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="ac679d5c47d0a5a13cb58a9a7705fcf6860df96f" upstream="refs/heads/master"/>
