@@ -100,4 +100,8 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-buildbot"
            groups="minilayout" />
 
+  <project path="src/third_party/sysroot-wrappers"
+           name="coreos/sysroot-wrappers"
+           groups="minilayout" />
+
 </manifest>
