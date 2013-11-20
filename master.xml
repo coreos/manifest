@@ -83,6 +83,10 @@ Your sources have been sync'd successfully.
            name="coreos/etcd"
            groups="minilayout" />
 
+  <project path="src/third_party/coreinit"
+           name="coreos/coreinit"
+           groups="minilayout" />
+
   <project path="src/third_party/etcdctl"
            name="coreos/etcdctl"
            groups="minilayout" />
