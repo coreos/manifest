@@ -13,7 +13,7 @@
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/board-overlays" path="src/overlays" revision="c2058ff8236f4ec81e2369eda58f1742b423adb4" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="7a7c6735152c9c6bd1b873d4730440de51748c0b" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/chromite" path="chromite" revision="1aa00c9230c0126f8b3ee703082d2a56a76b3e26" upstream="refs/heads/master">
+  <project groups="minilayout" name="coreos/chromite" path="chromite" revision="ed434e7cbb02f8629e69dfb23268e16cb7e62561" upstream="refs/heads/master">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
