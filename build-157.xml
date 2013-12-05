@@ -7,31 +7,31 @@
   
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   
-  <project groups="minilayout" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" remote="cros" revision="5004c1b88e46760e7898cb8c407af8da0cfaef72" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" remote="cros" revision="45f277e1b0ef33d59bc959c64f2f3726234c1d39" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" remote="cros" revision="48cc327c314dcf0778a10fec75682f3f82b1dfdf" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="2edd90094fbc9dd629641b3deb2b6cf64c8646ea" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="77886dbe371bd86e6df030a0999a8e6270862b27" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/board-overlays" path="src/overlays" revision="c2058ff8236f4ec81e2369eda58f1742b423adb4" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="7a7c6735152c9c6bd1b873d4730440de51748c0b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="3291ae76c4961bdb5cbcac6f2e441b7ec48895a1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/chromite" path="chromite" revision="ed434e7cbb02f8629e69dfb23268e16cb7e62561" upstream="refs/heads/master">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
   <project groups="minilayout" name="coreos/core-admin" path="src/third_party/core-admin" revision="821b0f8c2ce702de80314e2cdc58cc8bcb428c94" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreinit" path="src/third_party/coreinit" revision="787d25d45b3732b65f32700846ff0c4f62608213" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreinit" path="src/third_party/coreinit" revision="43d41fef0c7f23617a32e5261c63eccceb1b4868" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="323a083d64f7688fff0ef1b5b4cd7726b04b0217" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="e8a69737f99a1ce1422e2206b48f5ff5a3efaedf" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="47a360f8cd5288f6b38720ca7af5f910c80fcb67" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="9578f50fd0a87c6b8021025d70eb84297cbb15a0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="68e74553742e030b0d8e83958be13c0308bdd8cc" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="483fcf782efd51a2eb821f60862f7a067cd45f16" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="618def7ab04fd4d7989e7b204dd0d6b6bee37d76" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="2225b064db008b301121d29b52200ac9661c33ed" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="60427cd287e77dae6bb2bf6a7a9abfca585332a2" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/linux" path="src/third_party/linux" revision="0507eb5ef5a83ab746677b7f19d6e3a19906c995" upstream="coreos/master"/>
   <project groups="minilayout" name="coreos/motd-http" path="src/third_party/motd-http" revision="682bca6faf9c879034349e9be0eb72254a932b65" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="5b7454746dc1d03a126cb04e52cf84356e178330" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="bd07dceb600540d7a64b891aec00dd13f9fdb126" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="4a0609505a616830460139ecbb9d872d744700b1" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="4ffb21da3828204168f24aa710bdf3c2d81f90d2" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="28df3404ef84f1f4fe75ef76aa525fad9d93ec83" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/systemd-rest" path="src/third_party/systemd-rest" revision="1cbd0a6a5de82a36b5ca9117297d8e152a133e4f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="388aff6fdb0f8c58a31eb6b00ac3810d11046c27" upstream="refs/heads/master"/>
