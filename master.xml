@@ -87,6 +87,10 @@ Your sources have been sync'd successfully.
            name="coreos/coreinit"
            groups="minilayout" />
 
+  <project path="src/third_party/coretest"
+           name="coreos/coretest"
+           groups="minilayout" />
+
   <project path="src/third_party/etcdctl"
            name="coreos/etcdctl"
            groups="minilayout" />
