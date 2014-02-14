@@ -112,4 +112,8 @@ Your sources have been sync'd successfully.
            name="coreos/sysroot-wrappers"
            groups="minilayout" />
 
+  <project path="src/third_party/nss-altfiles"
+           name="coreos/nss-altfiles"
+           groups="minilayout" />
+
 </manifest>
