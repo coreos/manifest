@@ -116,4 +116,8 @@ Your sources have been sync'd successfully.
            name="coreos/nss-altfiles"
            groups="minilayout" />
 
+  <project path="src/third_party/baselayout"
+           name="coreos/baselayout"
+           groups="minilayout" />
+
 </manifest>
