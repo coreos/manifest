@@ -19,22 +19,22 @@
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
   <project groups="minilayout" name="coreos/core-admin" path="src/third_party/core-admin" revision="821b0f8c2ce702de80314e2cdc58cc8bcb428c94" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreinit" path="src/third_party/coreinit" revision="61f5ef5ae8cecbf05c452d28097311f6e0958ae5" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreinit" path="src/third_party/coreinit" revision="e3fb221a46a2831fef7927a6285e0d8e631cdf29" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="442125d932a941f50bc6dd0c4f80a11be57cf97b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="3b5c5d542bfba5e2c71bc683b7162c9a85f319eb" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="daf0a79a981fd6912bad81978f15461f5e161f11" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="0ec0fd256a173c31af2f51e52e5c6f6b9a569cae" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="9578f50fd0a87c6b8021025d70eb84297cbb15a0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="49253d8fdf31d5ff6dfa3eb2b559de3dcbefccf1" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="ac872b385581ccd68895551deaf068ced72202e0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="d1950d92d9207635a979524e1239dbde92679160" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="403f5ece58e2519d98d22cb453dcf1672d8f240f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/linux" path="src/third_party/linux" revision="108cd41d93d1eae5ca8fa30533faef810b2d7384" upstream="coreos/master"/>
   <project groups="minilayout" name="coreos/motd-http" path="src/third_party/motd-http" revision="682bca6faf9c879034349e9be0eb72254a932b65" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="f90401fd209e4b72f3ca0a77f5801ce11eb3dbf5" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="6bebce9decc304f51bb323c51d240a08f0ff1c47" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="fd1a5bf468de067f91f99cc5163b12f051343c31" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="96ede2334db819041be979b3b7ad9c43c29fe3d8" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="28df3404ef84f1f4fe75ef76aa525fad9d93ec83" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/systemd-rest" path="src/third_party/systemd-rest" revision="1cbd0a6a5de82a36b5ca9117297d8e152a133e4f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="388aff6fdb0f8c58a31eb6b00ac3810d11046c27" upstream="refs/heads/master"/>
