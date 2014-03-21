@@ -19,9 +19,9 @@
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
   <project groups="minilayout" name="coreos/core-admin" path="src/third_party/core-admin" revision="821b0f8c2ce702de80314e2cdc58cc8bcb428c94" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreinit" path="src/third_party/coreinit" revision="0db75dbefa49a8bcfce54dcb241d8799ef1de2b4" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreinit" path="src/third_party/coreinit" revision="1b95f1fe0a9f553f322a5efe5d2f5f0fa97f5566" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="42e1d62ad4e1deb0d5a2513390a4dea9bc7cd6de" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="03d20cae10abc000f08d14d768811f565ad5eed4" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="4dc87cb02420245a6f602e0d8c147e3bcf6f3296" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="4b158cdacf0fa4c16933e401dd11962b3c6d9838" upstream="refs/heads/master"/>
