@@ -43,20 +43,12 @@ Your sources have been sync'd successfully.
            name="coreos/dbus-cplusplus"
            groups="minilayout" />
 
-  <project path="src/third_party/systemd-rest"
-           name="coreos/systemd-rest"
-           groups="minilayout" />
-
   <project path="src/third_party/efunctions"
            name="coreos/efunctions"
            groups="minilayout" />
 
   <project path="src/third_party/update_engine"
            name="coreos/update_engine"
-           groups="minilayout" />
-
-  <project path="src/third_party/motd-http"
-           name="coreos/motd-http"
            groups="minilayout" />
 
   <project path="src/third_party/core-admin"
