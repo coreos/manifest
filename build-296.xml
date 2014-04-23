@@ -9,7 +9,7 @@
   
   <project groups="minilayout" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" remote="cros" revision="f9fca72e14fd8cbe1a2478df397214523d9b849c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" remote="cros" revision="48cc327c314dcf0778a10fec75682f3f82b1dfdf" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="9ec1ae6e86c01c1c49c4adc386b130b3b2af95fe" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="203fbc224d74a25a62d4c4c5b253d4fab652bf00" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="1f378ad0040e2f6f269a503df9c47f1966ed180d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/board-overlays" path="src/overlays" revision="c2058ff8236f4ec81e2369eda58f1742b423adb4" upstream="refs/heads/master"/>
@@ -20,8 +20,8 @@
   </project>
   <project groups="minilayout" name="coreos/core-admin" path="src/third_party/core-admin" revision="821b0f8c2ce702de80314e2cdc58cc8bcb428c94" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="2ff0762b0cfd0940a1922926cc5c00e29963d9dd" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="c4d1b9ebda248fd125afa0479cbe30b92cb97260" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="8201d751153904c74afbe49075517bbd73a732a2" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="322751eea12a97e4ecf48d98413d4f3995975665" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="1f1b8ca6fe0666d1784ef3d5664b12abf2bceae8" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="4b158cdacf0fa4c16933e401dd11962b3c6d9838" upstream="refs/heads/master"/>
