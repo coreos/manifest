@@ -116,4 +116,8 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-cloudinit"
            groups="minilayout" />
 
+  <project path="src/third_party/locksmith"
+           name="coreos/locksmith"
+           groups="minilayout" />
+
 </manifest>
