@@ -79,8 +79,8 @@ Your sources have been sync'd successfully.
            name="coreos/fleet"
            groups="minilayout" />
 
-  <project path="src/third_party/coretest"
-           name="coreos/coretest"
+  <project path="src/third_party/docker"
+           name="dotcloud/docker"
            groups="minilayout" />
 
   <project path="src/third_party/etcdctl"
