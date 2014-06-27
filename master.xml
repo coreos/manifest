@@ -51,10 +51,6 @@ Your sources have been sync'd successfully.
            name="coreos/update_engine"
            groups="minilayout" />
 
-  <project path="src/third_party/core-admin"
-           name="coreos/core-admin"
-           groups="minilayout" />
-
   <project path="src/platform/dev"
            name="coreos/dev-util"
            groups="minilayout" />
