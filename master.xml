@@ -120,4 +120,8 @@ Your sources have been sync'd successfully.
            name="coreos/coretest"
            groups="minilayout" />
 
+  <project path="src/third_party/toolbox"
+           name="coreos/toolbox"
+           groups="minilayout" />
+
 </manifest>
