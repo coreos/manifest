@@ -19,8 +19,8 @@
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="9528077340c591f820011e6b3804cf42c15fbab3" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="7eeb0893fb19cd754ae64793bc13d519752ba307" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="bf5d3539c90514f1009264df5f7fccf819c83a19" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="49922680eaa377dffd9ef5bfc9a94ec0dbdf27ef" upstream="refs/heads/build-367"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="b6714982e974714b841a1d253481e831306eeefa" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="d5c4968e694f2d56779562142803ff2cbe8052ab" upstream="refs/heads/master"/>
