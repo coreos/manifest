@@ -34,7 +34,7 @@
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="2c6a7d4d8b3c0389b3c589f6cf52beb0284fad22" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="563d9a6fdca8b22c9767c1a3a18429197ecab292" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="2fb518615a68949bb48090c48895ee442282641d" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="7025bd734d2bd8dabfc6d0f5e338bbdca4d39a66" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="28df3404ef84f1f4fe75ef76aa525fad9d93ec83" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="4e963277b7a1cf559683294883ba099ef22a6304" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="641533738ad1b21e52fb70a20c4b48050157495c" upstream="refs/heads/master"/>
