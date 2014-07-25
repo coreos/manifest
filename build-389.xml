@@ -20,27 +20,27 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="c19d8f6b61b75da2bd59cc021ac8ca020ecc9591" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="25c211885886150fa82ae7b4542aa2ff14310526" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="0ccf720638b2f3c2be4ba520308e961dc39321fe" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="0973f529bf740aaa158ba25bfb44e3171873449f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="d5c4968e694f2d56779562142803ff2cbe8052ab" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="9578f50fd0a87c6b8021025d70eb84297cbb15a0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="bdeb96be0f25234eda6bcc9240a75e25adac36ab" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="a884f2a18a5e9748e91f155ed460020ca06e3b9a" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="6dcd7c2e57669c8eaf06e12458b3bdeab39e7a56" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="e9b8b7e31e9c1b07a6932013678cf27892284c3c" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="49eb0d5493a255b88006ed6f194e9d834f489c94" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="72a09605a52c22f1b2e8e85ebf022cc5cd0d2ab2" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/linux" path="src/third_party/linux" revision="4250b32591fa333087dbecda0aa079cd88c5a640" upstream="coreos/master"/>
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="63db2336e45bf49e863ed403491d17e3fae27ee9" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="8d429d3e9ad2ca8cfa91a40a94248586ad7d321b" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="9b18163577756c839faf22491d813b458667c679" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="b206fde600157af04e742eeed0a0f3d4e5bc078b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="ee1840fe04a766f0fcf900dbd542a2f7e010dcb5" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="28df3404ef84f1f4fe75ef76aa525fad9d93ec83" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="4e963277b7a1cf559683294883ba099ef22a6304" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="17a857f08abc92a038adbab4b935d2007cff30b5" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/updatectl" path="src/third_party/updatectl" revision="95872fe46f0e208bf6e6467c7be18f7da85f9f22" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/vboot_reference" path="src/platform/vboot_reference" revision="1b63aaac25e915291b504eb1c477d4d56211bf4f" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="dotcloud/docker" path="src/third_party/docker" revision="2481e08e416d3cda0ed5ac73e6cbae99eea18414" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="dotcloud/docker" path="src/third_party/docker" revision="7dde97640f9935c35104de6aa09dfcf33ba20ffc" upstream="refs/heads/master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
 </manifest>
