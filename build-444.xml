@@ -20,14 +20,14 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="da5f85b3fb7da69cbf0bce833cca1d7a62fe8554" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="fc639bb62218fec22c714e3b56ab83568c90292e" upstream="refs/heads/build-444"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="81a9b3ecc143755acf4979d643c4c0063e46a2eb" upstream="refs/heads/build-444"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="0973f529bf740aaa158ba25bfb44e3171873449f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="15dfb80441ae5599acb410af221180ba443639e0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="9578f50fd0a87c6b8021025d70eb84297cbb15a0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="df70f653a41828bc6400f3b2bb20ef955540d79b" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="b6b9e71fa030c92cb13b2497bae5678c7a46cb0f" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="48c45f8f7fa477768b87b9676c55fd3934a3d123" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="a3e179cd0446e282a44e1f1cdd53bbf275becb54" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="6810bd53ca4564f0edb063b48cef5a4bfbfad5a0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/linux" path="src/third_party/linux" revision="c13c28207bf7d812d1b310a76013579cdb461b3e" upstream="coreos/master"/>
