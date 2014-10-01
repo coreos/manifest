@@ -20,7 +20,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="8ce925a0602eea57f9460b5e87eae43a2168fec8" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="4f02e89ac2ba47ea1b8e8131f6d3599aa278099b" upstream="refs/heads/build-410"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="ffcadf2897a023d839c6a0497839370f9b2db95e" upstream="refs/heads/build-410"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="0973f529bf740aaa158ba25bfb44e3171873449f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="66e206c20f22e002bbdaed1982b08b18a9b7f730" upstream="refs/heads/master"/>
@@ -28,7 +28,7 @@
   <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="511ac3280f5d96ff9fd4026f5d14d60289a3bdc8" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="2fef54f1cbc777f8a440275ce10f0ac65c6e75f6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="6f5adee496478a65badbd4c5b1ab282c1ee70918" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="72a09605a52c22f1b2e8e85ebf022cc5cd0d2ab2" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="6810bd53ca4564f0edb063b48cef5a4bfbfad5a0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/linux" path="src/third_party/linux" revision="edfabbd4dfaeb376ff6a6a58d5b23ae84b8b4167" upstream="coreos/master"/>
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="63db2336e45bf49e863ed403491d17e3fae27ee9" upstream="refs/heads/master"/>
