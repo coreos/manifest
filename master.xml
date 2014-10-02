@@ -128,4 +128,8 @@ Your sources have been sync'd successfully.
            name="coreos/updateservicectl"
            groups="minilayout" />
 
+  <project path="src/third_party/sdnotify-proxy"
+           name="coreos/sdnotify-proxy"
+           groups="minilayout" />
+
 </manifest>
