@@ -20,7 +20,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="55c3a793ad921fc875b3f86ed10b44293b8afcca" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="a83864d5e679cb3eaebced1421a93f4a0d4a0fe1" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="8e29a3ba96309bf8ce881521ea5f10dfe09ff47e" upstream="refs/heads/build-509"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="282a1b444c7d61247efdd173bcb7050622e44812" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="15dfb80441ae5599acb410af221180ba443639e0" upstream="refs/heads/master"/>
@@ -41,7 +41,7 @@
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="1866f2af0fe8c8a642679f0a41941158a4896738" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="7a7efd5df24721acf9fa5572a70894927486a3fa" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/vboot_reference" path="src/platform/vboot_reference" revision="7359eb09a7419bf025d9ab1f5234be1466bbb636" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="dotcloud/docker" path="src/third_party/docker" revision="c59b308b6b2fc8112a93d64f4922b0ece01a4e6a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="dotcloud/docker" path="src/third_party/docker" revision="50b8feb752f813af20f0eeb173a3662c0c5bd94a" upstream="refs/heads/coreos-v1.3.2"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
 </manifest>
