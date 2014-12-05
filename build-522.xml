@@ -19,15 +19,15 @@
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="c628bef666955f942edb373be1ee3d06a1c2e1e0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="24215ede9b3687365fd052b6c36d858236523314" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="f10d6e8bef27ed53044ae9762694020fd8fbb5e5" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="80f52811fecdddec505c505c79105919d6cb986e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="282a1b444c7d61247efdd173bcb7050622e44812" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dbus-cplusplus" path="src/third_party/dbus-c++" revision="9194e1425aebcfd7b1d3bf218de4430853dc9e37" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="15dfb80441ae5599acb410af221180ba443639e0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="9578f50fd0a87c6b8021025d70eb84297cbb15a0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="2c0d323318f7094ae20d16dc9cd3455c4c188879" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="1d1c2ff83427b96d4f08e15d053c412f8d6fcf53" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="0d4fb795df957c32356f9d9841c3ecd6c719128f" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="edbe3e02a6a57b211414f8892d155b466bd33dd8" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="fb239d724274a12448b272c6a760d1f4b70ef6d1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="b97f2fa47e4e71f2e2dfeb6a244754048fa99cae" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="4f84a154d4eaf6d1e4d95087fb6ec091c8003333" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
@@ -41,7 +41,7 @@
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="1866f2af0fe8c8a642679f0a41941158a4896738" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="ec7c94bda304202d7c3c1c0f658b6313ace597d4" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/vboot_reference" path="src/platform/vboot_reference" revision="7359eb09a7419bf025d9ab1f5234be1466bbb636" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="dotcloud/docker" path="src/third_party/docker" revision="e2a4b730ca6cc339122d013f33fedd593d95d1f3" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="dotcloud/docker" path="src/third_party/docker" revision="6e7a210db69eb59b08a1b1deb76f89630d5bece4" upstream="refs/heads/master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
 </manifest>
