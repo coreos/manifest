@@ -131,4 +131,8 @@ Your sources have been sync'd successfully.
            name="coreos/sdnotify-proxy"
            groups="minilayout" />
 
+  <project path="src/third_party/mantle"
+           name="coreos/mantle"
+           groups="minilayout" />
+
 </manifest>
