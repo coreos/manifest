@@ -139,4 +139,8 @@ Your sources have been sync'd successfully.
            name="coreos/rocket"
            groups="minilayout" />
 
+  <project path="src/third_party/etcd-starter"
+           name="coreos/etcd-starter"
+           groups="minilayout" />
+
 </manifest>
