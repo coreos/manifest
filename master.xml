@@ -147,4 +147,8 @@ Your sources have been sync'd successfully.
            name="coreos/systemd"
            groups="minilayout" />
 
+  <project path="src/third_party/mayday"
+           name="coreos/mayday"
+           groups="minilayout" />
+
 </manifest>
