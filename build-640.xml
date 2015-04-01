@@ -26,7 +26,6 @@
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="15dfb80441ae5599acb410af221180ba443639e0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="39633850d133b6ff83159e6ee13d11fc332c7b50" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd-starter" path="src/third_party/etcd-starter" revision="25ad08e4ea1c8d565631ec30f8f5e444f1c22d0b" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="318286ec61017d2e6bfbe4ca88424c0fdeaa4fc8" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="29152e8c22f1558deeaf7bf2ecd12c6eb615fc0f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="4f35e110039dd408168fbf26d900f007b29eb0df" upstream="refs/heads/master"/>
