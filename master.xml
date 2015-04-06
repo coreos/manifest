@@ -39,10 +39,6 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-overlay"
            groups="minilayout" />
 
-  <project path="src/third_party/dbus-c++"
-           name="coreos/dbus-cplusplus"
-           groups="minilayout" />
-
   <project path="src/third_party/efunctions"
            name="coreos/efunctions"
            groups="minilayout" />
