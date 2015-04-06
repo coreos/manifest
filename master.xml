@@ -135,10 +135,6 @@ Your sources have been sync'd successfully.
            name="coreos/rkt"
            groups="minilayout" />
 
-  <project path="src/third_party/etcd-starter"
-           name="coreos/etcd-starter"
-           groups="minilayout" />
-
   <project path="src/third_party/systemd"
            name="coreos/systemd"
            groups="minilayout" />
