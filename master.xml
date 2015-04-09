@@ -26,9 +26,6 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
 
-  <project path="src/overlays"
-           name="coreos/board-overlays"
-           groups="minilayout" />
   <project path="src/scripts" name="coreos/scripts"
            groups="minilayout" />
 
