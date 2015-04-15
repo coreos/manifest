@@ -140,4 +140,8 @@ Your sources have been sync'd successfully.
            name="coreos/mayday"
            groups="minilayout" />
 
+  <project path="src/third_party/shim"
+           name="coreos/shim"
+           groups="minilayout" />
+
 </manifest>
