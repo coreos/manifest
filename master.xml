@@ -144,4 +144,8 @@ Your sources have been sync'd successfully.
            name="coreos/shim"
            groups="minilayout" />
 
+  <project path="src/third_party/appc-spec"
+           name="appc/spec"
+           groups="minilayout" />
+
 </manifest>
