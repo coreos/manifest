@@ -69,7 +69,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/docker"
-           name="coreos/docker"
+           name="docker/docker"
            groups="minilayout" />
 
   <project path="src/third_party/etcdctl"
