@@ -76,8 +76,8 @@ Your sources have been sync'd successfully.
            name="coreos/etcdctl"
            groups="minilayout" />
 
-  <project path="src/platform/vboot_reference"
-           name="coreos/vboot_reference"
+  <project path="src/third_party/seismograph"
+           name="coreos/seismograph"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-buildbot"
