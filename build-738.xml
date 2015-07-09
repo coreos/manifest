@@ -20,11 +20,11 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="41289286cab73a5726884f1c36379558460f1774" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="d2f0b62f9c57779fd6c6faa923b797785e6afc18" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="eb6d64fe56e7bdfd061c2369ae6a671e28b8ed9c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="d7493a208303deac9a80e22acc468b9773f4f7ee" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="8ab388fa56e6ad4d5566a42ef9f5ebeadc433a6e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="61e9b99edb592993ddfd73822f949581c4109e93" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="318286ec61017d2e6bfbe4ca88424c0fdeaa4fc8" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="f8c5c9218b31442de3c0165c91a4c32f811a7810" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="adf8c776a147d65ad53fd28c809ab8189283a99b" upstream="refs/heads/master"/>
@@ -35,8 +35,8 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="61e7ce5a8cf56e347ab038b1e50199cff8d31914" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="a1b890831f2e9b74708a9382de4dd9fb5fe947c0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="643a516908dfa413c30d81012a3d32fbf549f0cc" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="014c8b03db8c9e418ca3aa1474b03c077889f518" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="170a0f3327eab5a4f323490fb24ab0ca634e5a1a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="66acef9e02d43241d8a43349ead1ea334ba8a881" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="17ff57c3763d2a1ea9523ce035c77b8c74fea622" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="e408b6cacbd31eda4d64adda00727e9c724fa516" upstream="refs/heads/master"/>
@@ -46,7 +46,7 @@
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="16a9ab6ab9e2b8e91706654870b088f6c901798b" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="911c99bc41037be13f773a31fe2f5fdb8fc0ae02" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="d957967d212df8c814323e9a672669cbc13f73de" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="docker/docker" path="src/third_party/docker" revision="0afd7bde02c7f03b9e8ebca6a7d8953b8697e55a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="docker/docker" path="src/third_party/docker" revision="37771c122b3d1cf1e68ef2887586361e48792fef" upstream="refs/heads/master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
 </manifest>
