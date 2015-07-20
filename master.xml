@@ -152,4 +152,8 @@ Your sources have been sync'd successfully.
            name="coreos/ignition"
            groups="minilayout" />
 
+  <project path="src/third_party/coreos-metadata"
+           name="coreos/coreos-metadata"
+           groups="minilayout" />
+
 </manifest>
