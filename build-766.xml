@@ -21,7 +21,7 @@
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="e1305937e64f35a4dd6e96a94b3613890842b53c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="577f67b7f0a8bfc8e75854ec1e87dffdf8144177" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="1140f4e00d97eb764efe79b5e1eacd6c396b9d54" upstream="refs/heads/build-766"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="df64e0c665d7cf09e9b0b9835b505753006d0772" upstream="refs/heads/build-766"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="072c33135839b692c6ceb37765e2e0f1a65b416c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="dfb63b042568b0f4fd42bc2710761e5897a4f133" upstream="refs/heads/master"/>
@@ -31,7 +31,7 @@
   <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="3d0b3d9136bfa671486a0501c75a6e3167181926" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="d9823e47bc66b78c22983280c7d7390ab2747719" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/ignition" path="src/third_party/ignition" revision="1a8ceadd36e0c1bac0aab8533c540c448b2470ff" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="859e8672c0c5a77642f5324225a7a82209d287ba" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="4cd4dbcc6d75f4f717a41b219a6ef8358789f722" upstream="refs/heads/build-766"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="2fc9219f146650f8465eb4fc9cd61808759c287a" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="a7bd4867a9e8ff2a646c386961ef8b2046ccc27e" upstream="refs/heads/master"/>
