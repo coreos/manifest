@@ -13,7 +13,7 @@
   <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="3bd4647c8c2cf26024d54b90d78692e108d9d254" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="8bcd090cf4524c12481e12022c5c47219a6f3f9d" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="3fd35b67f0855d1c1d571219e14866f3e4b746ef" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="6b86187cf00a15a33141997cd273f9ffa4fafb68" upstream="refs/heads/build-766"/>
   <project groups="minilayout" name="coreos/chromite" path="chromite" revision="ec574faedb9cc64f01ec1c5a8458350124ac0935" upstream="refs/heads/master">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
     <copyfile dest="LICENSE" src="LICENSE"/>
@@ -21,7 +21,7 @@
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="e1305937e64f35a4dd6e96a94b3613890842b53c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="577f67b7f0a8bfc8e75854ec1e87dffdf8144177" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="df64e0c665d7cf09e9b0b9835b505753006d0772" upstream="refs/heads/build-766"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="2a41b1742da02ea2fcb91af2ebd13597161a0a93" upstream="refs/heads/build-766"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="072c33135839b692c6ceb37765e2e0f1a65b416c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="dfb63b042568b0f4fd42bc2710761e5897a4f133" upstream="refs/heads/master"/>
