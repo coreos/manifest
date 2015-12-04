@@ -37,7 +37,7 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="998242b76bb9cb29f435d88877c89c495da210b7" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="85f8b48da25fd6e3c36a9aa1f7d90c19078777ab" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="759d694ca5d1e3b5b39e05b56d39d5c33c8fb4ce" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="7127aceba01c4d3dc8f4a66dbe57f29b4fb6b76a" upstream="refs/heads/build-835"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="fad44b561fdc851f773b77cd690589174e05e215" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="48d30c6b379e380fdde241099b98341b46692bbd" upstream="refs/heads/build-835"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
