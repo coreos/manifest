@@ -148,6 +148,10 @@ Your sources have been sync'd successfully.
            name="appc/spec"
            groups="minilayout" />
 
+  <project path="src/third_party/appc-acbuild"
+           name="appc/acbuild"
+           groups="minilayout" />
+
   <project path="src/third_party/ignition"
            name="coreos/ignition"
            groups="minilayout" />
