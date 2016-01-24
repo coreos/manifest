@@ -7,7 +7,7 @@
   
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   
-  <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="c942157af3e5ae7bceeb88b4239e33d6b9df91d9" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="0875c991a496fe2b65ed296551c667b199a6bfb8" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" remote="cros" revision="365e3a1b4d3a7ccbbed992716ce77d3e8b5a584a" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" remote="cros" revision="f2e4d8c1e0753c385f34d7be8b3f4ceb3ab17abe" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="f8fea9978d8a69250c636a5bb051866a68925140" upstream="refs/heads/master"/>
