@@ -1,0 +1,5 @@
+NAME=CoreOS
+ID=coreos
+ANSI_COLOR="1;32"
+HOME_URL="https://coreos.com/"
+BUG_REPORT_URL="https://github.com/coreos/bugs/issues"
