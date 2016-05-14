@@ -1,1 +1,54 @@
-build-1010.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote fetch="https://chromium.googlesource.com/" name="cros" review="gerrit.chromium.org/gerrit"/>
+  <remote fetch=".." name="github"/>
+  <remote fetch="ssh://git@github.com" name="private"/>
+  
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+  
+  <project groups="minilayout" name="appc/acbuild" path="src/third_party/appc-acbuild" revision="997c563c44d6d73aafbfbf9f5c27b0e25d0de7ac" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="2c903a9ff037d2942aa88f7129c969efc51f73c7" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" remote="cros" revision="27afe00632dac8ecfa8b2330b5f88341d80ce85b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" remote="cros" revision="f2e4d8c1e0753c385f34d7be8b3f4ceb3ab17abe" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="7a610e823d287f3a1f796100b2a3d11da83de89e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="139da2652de491ae70371413b45e189fe8e727f6" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="1cb3f4edd349963c048c6110fa2d03f9c5590cac" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/chromite" path="chromite" revision="f3db21adb76ea48390c5bacc6ae4b70f1037f657" upstream="refs/heads/master">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="d17c76ccbbde684839c68a8aa3d601b4e21de668" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="d976d664051f5b95ab60f7f1770b1b2bcc2877b2" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="204e3a28c0f67bce3dcebb5ce6760e5fe9e64444" upstream="refs/heads/build-1010"/>
+  <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="072c33135839b692c6ceb37765e2e0f1a65b416c" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="9a9bbacae56d55b45c39751148d967e7d5dfcdfc" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="62990fb5fa17d21f6f293f1b56c4da6ccff3d87d" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/etcdctl" path="src/third_party/etcdctl" revision="4c3f5c9fb3441991abf950651be977c3e0eef30e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="5840bd59b2c80a23e587aa5ab5388a3417dce2b7" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="ad906495e1a15a3857d22793627ddca66f844c5d" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/ignition" path="src/third_party/ignition" revision="9d0025b4d90d90122322b650c6cedc61cfc83eff" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="bad5e2182e80028d079c7bea40692208875a9d1b" upstream="refs/heads/build-1010"/>
+  <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="e6993c3a6e3da552512d50715acad79f41a9cc8f" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="7ff2db90f6eb45f1e18c2c32ceb5f0eded29e96e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="85f8b48da25fd6e3c36a9aa1f7d90c19078777ab" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="993369a0703572894dab19713d5943863c217df4" upstream="refs/heads/build-1010"/>
+  <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="fc4829f2fb6642868b97807d8dd4bbc276300eff" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="391368c100015b6eb84f8e8ba9235204d254179b" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="a96246842fe43d410cb8a69daef0d96c8fd56a21" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="437a7a86a482348828423ffd016b379fb70b0445" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="e859aa9e993453be321450148d45d08fcc55c3f5" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="45f497d12139b6d823a070cfab7724ead0b8bedd" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="fe82a8f43b905c98a7f94258948469f3d88f685a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="0842a025368e7ad9903bc70fcf5aaf06e1f39652" upstream="refs/heads/master"/>
+  
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
