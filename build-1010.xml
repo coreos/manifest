@@ -32,7 +32,7 @@
   <project groups="minilayout" name="coreos/fleet" path="src/third_party/fleet" revision="5840bd59b2c80a23e587aa5ab5388a3417dce2b7" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="ad906495e1a15a3857d22793627ddca66f844c5d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/ignition" path="src/third_party/ignition" revision="9d0025b4d90d90122322b650c6cedc61cfc83eff" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="97dd9948832540244197c44cc8ca8fef8a2cc3ba" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="bad5e2182e80028d079c7bea40692208875a9d1b" upstream="refs/heads/build-1010"/>
   <project groups="minilayout" name="coreos/installer" path="src/platform/installer" revision="95815a7cc15abea574e1b06d9fd403b90b29ba01" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="e6993c3a6e3da552512d50715acad79f41a9cc8f" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="7ff2db90f6eb45f1e18c2c32ceb5f0eded29e96e" upstream="refs/heads/master"/>
