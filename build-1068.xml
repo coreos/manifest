@@ -45,7 +45,7 @@
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="a96246842fe43d410cb8a69daef0d96c8fd56a21" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="437a7a86a482348828423ffd016b379fb70b0445" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="afbf2c0774459cdd4d41f41b2e0f86addd9ecbd2" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="afbf2c0774459cdd4d41f41b2e0f86addd9ecbd2" upstream="refs/heads/v229-coreos"/>
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="45f497d12139b6d823a070cfab7724ead0b8bedd" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="28195290fa5470232742cd2690beeab3400b2a96" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="0842a025368e7ad9903bc70fcf5aaf06e1f39652" upstream="refs/heads/master"/>
