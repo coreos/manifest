@@ -22,7 +22,7 @@
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="a8b5aff54a5396303800fbc1888db4c779ea1675" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="90b356ce23629ec0ce2f2f081bd18fbc0516d4f3" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="4108ae12f28f732a68c586c0d779111261eed572" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="refs/heads/build-1122"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="072c33135839b692c6ceb37765e2e0f1a65b416c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="9a9bbacae56d55b45c39751148d967e7d5dfcdfc" upstream="refs/heads/master"/>
@@ -38,7 +38,7 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="1ae7080de23cb03a952d962b825896ae43270fee" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="547a9e77750dd958c4bb9b2d7cc71230c42fbbc9" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="6e54e25471711994c4c1f40c85e1a4e62f90825e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="refs/heads/build-1122"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="e67ad66e757424728f896b45013f9fe39121fdcc" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="c49cb200fcc67232ee1aae1528b843765443b71e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
