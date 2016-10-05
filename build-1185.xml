@@ -47,7 +47,7 @@
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="437a7a86a482348828423ffd016b379fb70b0445" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="e859aa9e993453be321450148d45d08fcc55c3f5" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="3c71a4056e0724e77e047f84aab54109f595ae2b" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="refs/heads/release-0.3"/>
+  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="200d86767d8f451118aa7ec445c4799aeea5eb92" upstream="refs/heads/release-0.3"/>
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="bc01d1e95ec78540465f778280d31582b7baf866" upstream="refs/heads/master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>

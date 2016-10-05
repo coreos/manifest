@@ -22,7 +22,7 @@
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="3c68e2e67d2ea077e2b79383c0ad313770c62ca2" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="fcfdc7bd5d1206b50040e24cda39fa726e7c9111" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="97f0469aa4d2be456b2728dfd49a18b80c3971fb" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="5fec8626216e9067c36da750a2fe40af5de0cf06" upstream="refs/heads/build-1185"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="072c33135839b692c6ceb37765e2e0f1a65b416c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="9a9bbacae56d55b45c39751148d967e7d5dfcdfc" upstream="refs/heads/master"/>
@@ -47,7 +47,7 @@
   <project groups="minilayout" name="coreos/sysroot-wrappers" path="src/third_party/sysroot-wrappers" revision="437a7a86a482348828423ffd016b379fb70b0445" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="e859aa9e993453be321450148d45d08fcc55c3f5" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="3c71a4056e0724e77e047f84aab54109f595ae2b" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="076636ee24dfb9789b61a571ba3431118773c82c" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="200d86767d8f451118aa7ec445c4799aeea5eb92" upstream="refs/heads/release-0.3"/>
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="bc01d1e95ec78540465f778280d31582b7baf866" upstream="refs/heads/master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
