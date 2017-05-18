@@ -160,4 +160,8 @@ Your sources have been sync'd successfully.
            name="coreos/coreos-metadata"
            groups="minilayout" />
 
+  <project path="src/third_party/torcx"
+           name="coreos/torcx"
+           groups="minilayout" />
+
 </manifest>
