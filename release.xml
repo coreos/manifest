@@ -20,7 +20,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="44100c425a82b3286668dc0c58a007f8f567138b" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="bc0579018fad78f2d46360302724089a6cffa4d3" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="bbf490038e14eb7b7083f9efb4b1aa606086f521" upstream="refs/heads/build-1520"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="694c403837f240ea4de0a6dd4a575dff50804952" upstream="refs/heads/build-1520"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="59b167008f6241039daecdff0b6ca4794b8da29a" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/etcd" path="src/third_party/etcd" revision="7cf8eb8dce478c2d84f16ac5822b942f55d69540" upstream="refs/heads/master"/>
