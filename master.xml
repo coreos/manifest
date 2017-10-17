@@ -149,4 +149,8 @@ Your sources have been sync'd successfully.
            name="coreos/torcx"
            groups="minilayout" />
 
+  <project path="src/third_party/update-ssh-keys"
+           name="coreos/update-ssh-keys"
+           groups="minilayout" />
+
 </manifest>
