@@ -19,9 +19,6 @@ Your sources have been sync'd successfully.
   <project path="chromite/third_party/pyelftools"
            groups="minilayout" remote="cros"
            name="chromiumos/third_party/pyelftools" />
-  <project path="src/platform/crostestutils"
-           name="chromiumos/platform/crostestutils"
-           groups="minilayout" remote="cros" />
 
   <project path="src/scripts" name="coreos/scripts"
            groups="minilayout" />
