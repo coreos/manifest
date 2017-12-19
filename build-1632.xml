@@ -19,7 +19,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="efbcf2d4356d6a662f1c8d48b93ff2c55a4f5e12" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="a4eb0f804c7e56b6d2fb087482adc62dca5a2b96" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="15d48a19fbc4fc1cb4ece6df3ac55428636b8352" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="refs/heads/build-1632"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="7b9092b9f6d93f00527591a7c393e2be3099278d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
@@ -33,9 +33,9 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="f20e8b7a4e85b90ca66a2d30fcf39c32874c3476" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="c8a7c29dda67d4d639e7d37461b4d60c1feb1050" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="98c21ce0b0b14e8f7940abe29c51a06cda40a5c5" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="refs/heads/build-1632"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="8c7fb082da8a4586007b50e3b202e83901fcf83d" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="f22d5bed00112a2eac998a19c0c82bd32c9e6529" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="refs/heads/build-1632"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="d4dbaa5bbcab7f659a22c11d904c61c626b4c514" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>
