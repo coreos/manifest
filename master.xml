@@ -150,4 +150,8 @@ Your sources have been sync'd successfully.
            name="coreos/update-ssh-keys"
            groups="minilayout" />
 
+  <project path="src/third_party/coreos-cryptagent"
+           name="coreos/coreos-cryptagent"
+           groups="minilayout" />
+
 </manifest>
