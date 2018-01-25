@@ -54,10 +54,6 @@ Your sources have been sync'd successfully.
            name="coreos/etcd"
            groups="minilayout" />
 
-  <project path="src/third_party/fleet"
-           name="coreos/fleet"
-           groups="minilayout" />
-
   <project path="src/third_party/docker"
            name="coreos/docker"
            groups="minilayout" />
