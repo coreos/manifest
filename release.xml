@@ -19,7 +19,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="efbcf2d4356d6a662f1c8d48b93ff2c55a4f5e12" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="a4eb0f804c7e56b6d2fb087482adc62dca5a2b96" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="43110b1178151d9fd07d88d2f6b08c9610f1ebb5" upstream="refs/heads/build-1632"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="c6f07519b6e25b1369e9968a060cc50bc4680ea5" upstream="refs/heads/build-1632"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="7b9092b9f6d93f00527591a7c393e2be3099278d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
