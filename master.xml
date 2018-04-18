@@ -20,14 +20,19 @@ Your sources have been sync'd successfully.
            groups="minilayout" remote="cros"
            name="chromiumos/third_party/pyelftools" />
 
-  <project path="src/scripts" name="coreos/scripts"
+       <project path="src/scripts"
+           name="jessfraz/scripts"
+           revision="desktop"
            groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="coreos/portage-stable"
+           name="jessfraz/portage-stable"
+           revision="desktop"
            groups="minilayout" />
+
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay"
+           name="jessfraz/coreos-overlay"
+           revision="desktop"
            groups="minilayout" />
 
   <project path="src/third_party/efunctions"
@@ -43,7 +48,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/init"
-           name="coreos/init"
+           name="PaulCapestany/init"
            groups="minilayout" />
 
   <project path="src/third_party/bootengine"
@@ -75,7 +80,8 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/baselayout"
-           name="coreos/baselayout"
+           name="jessfraz/baselayout"
+           revision="desktop"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-cloudinit"
