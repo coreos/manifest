@@ -11,7 +11,7 @@
   <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="749a27362ccaf5bb745501177ed596cf8413b6cf" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/repohooks" path="src/repohooks" remote="cros" revision="aae3cb5dacb2ca2346c2b2ebc94d26da4bbc808d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="289a20a0cd06ac47a97e0198d32cfec1a963c340" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="jessfraz/baselayout" path="src/third_party/baselayout" revision="8f33ab14d3b6f12eb37cd8c6d12559d5dcb344b8" upstream="refs/heads/desktop"/>
   <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="daa1e80e4a6f080c774a966f6c8ed9a76654d7ff" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/chromite" path="chromite" revision="d4da7757e4436a12d0786efa1b62a69d0c0c0d50" upstream="refs/heads/master">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
@@ -19,7 +19,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="fb2cd667d92e10efaaba0154de931c70c1f91913" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-metadata" path="src/third_party/coreos-metadata" revision="4530dd1f836da24167640f0d91586fb12d1f9ea0" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="0d3baed8e8e24b26c11b5ebd8826a674495c3811" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="jessfraz/coreos-overlay" path="src/third_party/coreos-overlay" revision="8e5276c9fb0d4ea30886dca0dc0610937a5a5676" upstream="refs/heads/desktop"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="1cb32a9414c6c6085519657dccaff18fe2a51dd7" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
@@ -33,9 +33,9 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="8877b51f06d1a5b1e5a62e48d992f6548fd00ff1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="78318a5760bea08ff5a76779a070c2c8fbea2939" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="bb95ee6afa5f21222a1a66847e802c02e7f0491a" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="jessfraz/portage-stable" path="src/third_party/portage-stable" revision="3e8048b2ed907f3113cd31f7a2f6a99fb6e636e4" upstream="refs/heads/desktop"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="28e3e38f33477a6c85114cc4c317dd8c74b2d95f" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="1208816f7a0eb296d693ac9f5af0b919f9e9410e" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="jessfraz/scripts" path="src/scripts" revision="ca61d18bdbe7e50d97ee47cb299d0ab027643575" upstream="refs/heads/desktop"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="0f8ef1aa86c59fc6d54eadaffb248feaccd1018b" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="a1279931829306af9b8ba37486ab23d6f0cd1488" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>
