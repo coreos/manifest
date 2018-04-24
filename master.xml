@@ -48,7 +48,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/init"
-           name="PaulCapestany/init"
+           name="jessfraz/init"
            groups="minilayout" />
 
   <project path="src/third_party/bootengine"
@@ -57,6 +57,10 @@ Your sources have been sync'd successfully.
 
   <project path="src/third_party/etcd"
            name="coreos/etcd"
+           groups="minilayout" />
+
+  <project path="src/third_party/fleet"
+           name="coreos/fleet"
            groups="minilayout" />
 
   <project path="src/third_party/docker"
