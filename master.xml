@@ -67,9 +67,9 @@ Your sources have been sync'd successfully.
         upstream="refs/heads/master"/>
 
 <project groups="minilayout"
-        name="jessfraz/coreos-overlay" 
+        name="PaulCapestany/coreos-overlay" 
         path="src/third_party/coreos-overlay" 
-        revision="8e5276c9fb0d4ea30886dca0dc0610937a5a5676" 
+        revision="6920e4a525d61edfddf4b753ec3741b6292f0139" 
         upstream="refs/heads/desktop"/>
 
 <project groups="minilayout"
