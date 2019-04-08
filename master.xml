@@ -84,7 +84,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/rkt"
-           name="coreos/rkt"
+           name="rkt/rkt"
            groups="minilayout" />
 
   <project path="src/third_party/systemd"
