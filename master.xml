@@ -35,16 +35,8 @@ Your sources have been sync'd successfully.
            name="coreos/bootengine"
            groups="minilayout" />
 
-  <project path="src/third_party/etcd"
-           name="coreos/etcd"
-           groups="minilayout" />
-
   <project path="src/third_party/docker"
            name="coreos/docker"
-           groups="minilayout" />
-
-  <project path="src/third_party/etcdctl"
-           name="coreos/etcdctl"
            groups="minilayout" />
 
   <project path="src/third_party/seismograph"
