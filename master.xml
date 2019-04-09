@@ -35,24 +35,12 @@ Your sources have been sync'd successfully.
            name="coreos/bootengine"
            groups="minilayout" />
 
-  <project path="src/third_party/etcd"
-           name="coreos/etcd"
-           groups="minilayout" />
-
   <project path="src/third_party/docker"
            name="coreos/docker"
            groups="minilayout" />
 
-  <project path="src/third_party/etcdctl"
-           name="coreos/etcdctl"
-           groups="minilayout" />
-
   <project path="src/third_party/seismograph"
            name="coreos/seismograph"
-           groups="minilayout" />
-
-  <project path="src/third_party/sysroot-wrappers"
-           name="coreos/sysroot-wrappers"
            groups="minilayout" />
 
   <project path="src/third_party/nss-altfiles"
@@ -92,7 +80,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/rkt"
-           name="coreos/rkt"
+           name="rkt/rkt"
            groups="minilayout" />
 
   <project path="src/third_party/systemd"
