@@ -12,7 +12,7 @@
   <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="81d44f654441ac7243ccb4e911176b146a4e0fff" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="107ce54747f739dad4b56f9753852341bb759a4d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="f1f0405491dfd073bbf074f7e374c9ef85600691" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="e83d0acd04166b4bf34273bb8e40170cf2ec36d7" upstream="refs/heads/build-2191"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="c8b866c0a278929dddc5a7c2ff75e2112520c6bf" upstream="refs/heads/build-2191"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="1cb32a9414c6c6085519657dccaff18fe2a51dd7" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/fero" path="src/third_party/fero" revision="d69131ee1016933cb6681beade227a4aa53a282e" upstream="refs/heads/master"/>
