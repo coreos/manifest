@@ -8,19 +8,19 @@
   
   <project groups="minilayout" name="appc/acbuild" path="src/third_party/appc-acbuild" revision="ce911a7227c81ac2edfa39b86ac1a55ba5ff3e1d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="259c2eebc32df77c016974d5e8eed390d5a81500" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/afterburn" path="src/third_party/afterburn" revision="ed873b40a88b92c83b6d34caa859766a160cc1e1" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/afterburn" path="src/third_party/afterburn" revision="429f4116751cf48bc9efc527702e7f743799c917" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="81d44f654441ac7243ccb4e911176b146a4e0fff" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="107ce54747f739dad4b56f9753852341bb759a4d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="f1f0405491dfd073bbf074f7e374c9ef85600691" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="60e284c0f89146b9ceb2b9a7d028bb1106d09459" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/coreos-overlay" path="src/third_party/coreos-overlay" revision="7cc98144dfd170fedd17e9bdd1e2139b082f68bc" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="1cb32a9414c6c6085519657dccaff18fe2a51dd7" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/docker" path="src/third_party/docker" revision="867a5999cefccefb3e0fb79ffa22f01dd7c1a5e1" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/fero" path="src/third_party/fero" revision="d69131ee1016933cb6681beade227a4aa53a282e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/grub" path="src/third_party/grub" revision="0863c013179c5addee289fb4037e6df39ca4e351" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/ignition" path="src/third_party/ignition" revision="5625b9aac2f5679f34c608ded512c9a18dfd7697" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="a164d8785cf49d69091bfec642ed59cc59bb3421" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/ignition" path="src/third_party/ignition" revision="de8cfaedd1adba6257054640cb495a970b6bb716" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/init" path="src/third_party/init" revision="5c6fd4f8add76700a9bd19c8ccfb78e96011af19" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/locksmith" path="src/third_party/locksmith" revision="ba572048b6baf84b4488656ca4f8b115243ab3d5" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="55e8cf43fb133c5b7f53ed2688ef93594cf1fa54" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="9b2cd82f39860cebff32fba517fe7efd675bffe7" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="78318a5760bea08ff5a76779a070c2c8fbea2939" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="42bec47544ad80d3e39342b11ea33da05ff9133d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="f4f17ef08ccca8446466bda14dc930248d853657" upstream="refs/heads/master"/>
@@ -29,7 +29,7 @@
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="edbe2360e9af362914868df0c7c1ace62e8e1778" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="1e5d2d656420d0e755dbcf72aeba3c3aba54e956" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="b623dc3686a9830ae2ff5a0923b859e44b359e67" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="5a91d33f052f522924bded3bd0c1815a82dafd57" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/torcx" path="src/third_party/torcx" revision="e1ded8598507602925ad943e8a70efe7344f5af0" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="fbb375f51252b32df1ee74b93106313741b739ee" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="b0a992aca295028f9854a9036f1e089c09539fb1" upstream="refs/heads/master"/>
