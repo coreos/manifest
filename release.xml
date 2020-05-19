@@ -8,7 +8,7 @@
   
   <project dest-branch="refs/heads/master" groups="minilayout" name="appc/acbuild" path="src/third_party/appc-acbuild" revision="ce911a7227c81ac2edfa39b86ac1a55ba5ff3e1d" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="appc/spec" path="src/third_party/appc-spec" revision="259c2eebc32df77c016974d5e8eed390d5a81500" upstream="refs/heads/master"/>
-  <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/afterburn" path="src/third_party/afterburn" revision="3a5de1faf43635505a2f260dfedfad5671b64ae0" upstream="refs/heads/master"/>
+  <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/afterburn" path="src/third_party/afterburn" revision="480f068b9c8a957b70bc57d45237ca25c264359c" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="81d44f654441ac7243ccb4e911176b146a4e0fff" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="107ce54747f739dad4b56f9753852341bb759a4d" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="f1f0405491dfd073bbf074f7e374c9ef85600691" upstream="refs/heads/master"/>
@@ -31,7 +31,7 @@
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/systemd" path="src/third_party/systemd" revision="1e5d2d656420d0e755dbcf72aeba3c3aba54e956" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/toolbox" path="src/third_party/toolbox" revision="2a72ddb5ead2bd2a0452c3622ecc32ea4fae8f13" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/torcx" path="src/third_party/torcx" revision="e1ded8598507602925ad943e8a70efe7344f5af0" upstream="refs/heads/master"/>
-  <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="4d77b61c4ca631a32b295768373fdee7e1c9b7a0" upstream="refs/heads/master"/>
+  <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/update-ssh-keys" path="src/third_party/update-ssh-keys" revision="de11f4deb4dbe0221de68edb6a58463e3845be12" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/update_engine" path="src/third_party/update_engine" revision="b0a992aca295028f9854a9036f1e089c09539fb1" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="cf2a962b5a44760365788ce8621a7057be7d6cc2" upstream="refs/heads/master"/>
   <project dest-branch="refs/heads/master" groups="minilayout" name="rkt/rkt" path="src/third_party/rkt" revision="171c416fac02516604e48d2e65153dd55a12513e" upstream="refs/heads/master"/>
